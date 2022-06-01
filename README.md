@@ -55,7 +55,7 @@ brew bundle
 
 ## Setup Neovim
 
-[Setup guide](./.config/nvim/README.md)
+[Setup guide](https://github.com/kolyamba2105/neovim-config/blob/master/README.md)
 
 Neovim config is a separate git repository and is being used as a git
 submodule. More about git submodules can be found [here](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
