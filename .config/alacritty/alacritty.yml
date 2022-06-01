@@ -1,0 +1,29 @@
+import:
+  - ~/.config/alacritty/themes/gruvbox-material.yml
+
+window:
+  padding:
+    x: 8
+    y: 8
+
+  decorations: none
+  startup_mode: Maximized
+
+font:
+  size: 16
+
+  normal:
+    style: Light
+    family: Iosevka Nerd Font
+
+  italic:
+    style: Light
+    family: Iosevka Nerd Font
+
+  bold:
+    style: Light
+    family: Iosevka Nerd Font
+
+  bold_italic:
+    style: Light
+    family: Iosevka Nerd Font
