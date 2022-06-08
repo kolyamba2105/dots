@@ -16,7 +16,7 @@
   chb = checkout -b
   d = diff
   dc = diff --cached
-  l = log
+  l = log --graph
   p = push
   pf = push -f
   pl = pull
@@ -37,4 +37,6 @@
 	editor = nvim
 
 [diff]
+	tool = nvimdiff
+[merge]
 	tool = nvimdiff
