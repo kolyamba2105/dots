@@ -6,7 +6,7 @@ window:
     x: 8
     y: 8
 
-  decorations: none
+  decorations: buttonless
   startup_mode: Maximized
 
 font:
