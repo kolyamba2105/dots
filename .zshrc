@@ -111,9 +111,8 @@ alias grep="grep --color=auto"
 alias ll="exa -la"
 alias ls="exa"
 alias mv="mv -i"
-alias n-12="n exec 12.22.1"
-alias n-14="n exec 14.17.3"
-alias n-16="n exec 16.13.1"
 alias rm="rm -i"
 
+# Put a desired node version in the end
+export PATH="/opt/homebrew/opt/node@14/bin:$PATH"
 export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
