@@ -114,5 +114,10 @@ alias mv="mv -i"
 alias rm="rm -i"
 
 # Put a desired node version in the end
-export PATH="/opt/homebrew/opt/node@14/bin:$PATH"
-export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
+export NODE_PATH="/opt/homebrew/opt/node@16/bin"
+export PATH="$NODE_PATH:$PATH"
+
+# pnpm
+export PNPM_HOME="/Users/kolyamba/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
