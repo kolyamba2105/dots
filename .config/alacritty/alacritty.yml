@@ -10,7 +10,7 @@ window:
   startup_mode: Maximized
 
 font:
-  size: 16
+  size: 14
 
   normal:
     style: Light
