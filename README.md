@@ -34,9 +34,8 @@ FOLLOW POST-INSTALLATION INSTRUCTIONS WRITTEN IN CONSOLE OUTPUT AFTER HOMEBREW I
 
 ## Install necessary packages
 
-PREFORM ALL INSTALLATIONS (INCLUDING NEOVIM PLUGINS) FROM DEFAULT MACOS TERMINAL AS ALACRITTY MESSES UP WITH ARM64/X86_64 ARCHITECTURE!!!
-
 [Manage brew dependencies](https://tomlankhorst.nl/brew-bundle-restore-backup)
+[Brewfile tips](https://gist.github.com/ChristopherA/a579274536aab36ea9966f301ff14f3f)
 
 ### Dump all HomeBrew packages
 
@@ -44,7 +43,6 @@ PREFORM ALL INSTALLATIONS (INCLUDING NEOVIM PLUGINS) FROM DEFAULT MACOS TERMINAL
 # From this directory
 brew bundle dump
 ```
-
 
 ### Restore HomeBrew packages
 
@@ -73,11 +71,3 @@ git submodule update
 
 sh setup.sh
 ```
-
-## Other software
-
-- [Google Chrome](https://www.google.com/intl/en/chrome)
-- [Spotify](https://www.spotify.com/ua-en/download/mac)
-- BitWarden - from App Store
-- Slack - from App Store
-- Telegram - from App Store
