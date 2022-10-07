@@ -531,9 +531,7 @@
           }
         },
         "options": {
-          "args": [
-            "HEAD"
-          ]
+          "args": ["HEAD"]
         }
       },
       "tree-sitter": {
@@ -614,9 +612,7 @@
           }
         },
         "options": {
-          "args": [
-            "HEAD"
-          ]
+          "args": ["HEAD"]
         }
       },
       "node@14": {
