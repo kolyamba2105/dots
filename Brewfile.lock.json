@@ -1132,6 +1132,12 @@
         "options": {
           "full_name": "spotify"
         }
+      },
+      "neovide": {
+        "version": "0.10.1",
+        "options": {
+          "full_name": "neovide"
+        }
       }
     }
   },
