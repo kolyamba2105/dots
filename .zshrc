@@ -121,3 +121,10 @@ export PATH="$NODE_PATH:$PATH"
 export PNPM_HOME="/Users/kolyamba/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+
+# bun completions
+[ -s "/Users/kolyamba/.bun/_bun" ] && source "/Users/kolyamba/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
