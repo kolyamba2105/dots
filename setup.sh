@@ -14,9 +14,6 @@ ln -s $PWD/.tmux.conf ~/.tmux.conf
 rm ~/.gitconfig
 ln -s $PWD/.gitconfig ~/.gitconfig
 
-rm ~/.p10k.zsh
-ln -s $PWD/.p10k.zsh ~/.p10k.zsh
-
 rm -rf ~/.config/alacritty
 ln -s $PWD/.config/alacritty ~/.config/alacritty
 
