@@ -58,6 +58,13 @@ brew bundle
 Neovim config is a separate git repository and is being used as a git
 submodule. More about git submodules can be found [here](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
+## TPM
+
+```sh
+# Install TMUX plugin manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 ## Setup config files
 
 ```sh
