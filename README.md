@@ -19,6 +19,7 @@ ssh-keygen
 ## Setup ZSH
 
 - [Install ohmyzsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
+- [Install powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [Install zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [Install zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
