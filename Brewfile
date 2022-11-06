@@ -24,8 +24,6 @@ brew "lua-language-server"
 brew "luajit", args: ["HEAD"]
 brew "tree-sitter"
 brew "neovim", args: ["HEAD"]
-brew "node@14"
-brew "node@16"
 brew "pinentry-mac"
 brew "postgresql@14", restart_service: true
 brew "ripgrep"
@@ -42,7 +40,7 @@ cask "bitwarden"
 cask "figma"
 cask "firefox"
 cask "font-iosevka-nerd-font"
-cask "font-jetbrains-mono"
+cask "font-jetbrains-mono-nerd-font"
 cask "google-chrome"
 cask "neovide"
 cask "postman"
