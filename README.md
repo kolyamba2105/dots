@@ -22,10 +22,6 @@ ssh-keygen
 - [Install zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [Install zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-## Install JetBrains Mono font
-
-[Download link](https://www.jetbrains.com/lp/mono)
-
 ## Install HomeBrew
 
 ```sh
@@ -40,10 +36,10 @@ ssh-keygen
 
 [Setup guide](https://github.com/kolyamba2105/neovim-config/blob/master/README.md)
 
-## TPM
+## tmux
 
 ```sh
-# Install TMUX plugin manager
+# Install tmux plugin manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
