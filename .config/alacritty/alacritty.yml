@@ -16,17 +16,17 @@ font:
   size: 14
 
   normal:
-    style: Regular
+    style: Light
     family: JetBrainsMono Nerd Font
 
   italic:
-    style: Italic
+    style: Light Italic
     family: JetBrainsMono Nerd Font
 
   bold:
-    style: Bold
+    style: SemiBold
     family: JetBrainsMono Nerd Font
 
   bold_italic:
-    style: Bold Italic
+    style: SemiBold Italic
     family: JetBrainsMono Nerd Font
