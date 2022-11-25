@@ -33,6 +33,12 @@ ssh-keygen
 
 [Brewfile tips](https://gist.github.com/ChristopherA/a579274536aab36ea9966f301ff14f3f)
 
+## Install nvm
+
+```sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+```
+
 ## Setup Neovim
 
 [Setup guide](https://github.com/kolyamba2105/neovim-config/blob/master/README.md)
