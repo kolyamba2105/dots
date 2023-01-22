@@ -25,3 +25,6 @@ ln -s $PWD/.config/nvim ~/.config/nvim
 
 rm -rf ~/.config/htop
 ln -s $PWD/.config/htop ~/.config/htop
+
+rm ~/.hushlogin
+ln -s $PWD/.hushlogin ~/.hushlogin
