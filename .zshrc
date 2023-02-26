@@ -144,11 +144,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export FZF_DEFAULT_COMMAND='rg --files --hidden'
-export FZF_DEFAULT_OPTS='-m --height 100% --layout=reverse --border --inline-info'
+export FZF_DEFAULT_COMMAND="rg --files --hidden"
+export FZF_DEFAULT_OPTS="-m --height 100% --layout=reverse --border --inline-info"
 
-alias f="fzf | xargs -r $EDITOR"
-alias g="git log --oneline | fzf"
+alias f="fzf --preview 'bat --style=full --color=always {+1}' | xargs -r $EDITOR"
+alias g="git log --oneline | fzf --preview 'git show {+1}'"
 alias h="history | fzf"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
