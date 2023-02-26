@@ -17,6 +17,9 @@ ln -s $PWD/.p10k.zsh ~/.p10k.zsh
 rm ~/.gitconfig
 ln -s $PWD/.gitconfig ~/.gitconfig
 
+rm ~/.fzf.zsh
+ln -s $PWD/.fzf.zsh ~/.fzf.zsh
+
 rm -rf ~/.config/alacritty
 ln -s $PWD/.config/alacritty ~/.config/alacritty
 
