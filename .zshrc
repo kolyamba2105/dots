@@ -112,16 +112,14 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=nvim
 export VISUAL=nvim
 
-alias cat="bat"
 alias cp="cp -i"
-alias f="fd . --hidden | fzf | xargs -r $EDITOR"
-alias g="git log --oneline | fzf"
-alias grep="grep --color=auto"
-alias h="history | fzf"
-alias ll="exa -la"
-alias ls="exa"
 alias mv="mv -i"
 alias rm="rm -i"
+
+alias cat="bat"
+
+alias ll="exa -la"
+alias ls="exa"
 
 # Put a desired node version in the end
 export NODE_PATH="/opt/homebrew/opt/node@16/bin"
@@ -145,5 +143,12 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export FZF_DEFAULT_COMMAND='rg --files --hidden'
+export FZF_DEFAULT_OPTS='-m --height 100% --layout=reverse --border --inline-info'
+
+alias f="fzf | xargs -r $EDITOR"
+alias g="git log --oneline | fzf"
+alias h="history | fzf"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
