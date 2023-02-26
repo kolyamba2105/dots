@@ -114,7 +114,10 @@ export VISUAL=nvim
 
 alias cat="bat"
 alias cp="cp -i"
+alias f="fd . --hidden | fzf | xargs -r $EDITOR"
+alias g="git log --oneline | fzf"
 alias grep="grep --color=auto"
+alias h="history | fzf"
 alias ll="exa -la"
 alias ls="exa"
 alias mv="mv -i"
