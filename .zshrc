@@ -151,3 +151,6 @@ alias e="fzf --preview 'bat --style=full --color=always {+1}' | xargs -r $EDITOR
 alias g="git log --oneline | fzf --preview 'git show {+1} | bat --style=full --color=always'"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# opam configuration
+[[ ! -r /Users/kolyamba/.opam/opam-init/init.zsh ]] || source /Users/kolyamba/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
