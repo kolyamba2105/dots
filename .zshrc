@@ -147,8 +147,7 @@ export NVM_DIR="$HOME/.nvm"
 export FZF_DEFAULT_COMMAND="rg --files --hidden"
 export FZF_DEFAULT_OPTS="-m --height 100% --layout=reverse --border --inline-info"
 
-alias f="fzf --preview 'bat --style=full --color=always {+1}' | xargs -r $EDITOR"
-alias g="git log --oneline | fzf --preview 'git show {+1}'"
-alias h="history | fzf"
+alias e="fzf --preview 'bat --style=full --color=always {+1}' | xargs -r $EDITOR"
+alias g="git log --oneline | fzf --preview 'git show {+1} | bat --style=full --color=always'"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
