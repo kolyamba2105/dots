@@ -24,6 +24,7 @@ brew "lua-language-server"
 brew "luajit", args: ["HEAD"]
 brew "tree-sitter"
 brew "neovim", args: ["HEAD"]
+brew "opam"
 brew "pinentry-mac"
 brew "postgresql@14", restart_service: true
 brew "python@3.10"
