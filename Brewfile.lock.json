@@ -1510,6 +1510,12 @@
           "full_name": "firefox"
         }
       },
+      "font-iosevka-nerd-font": {
+        "version": "2.3.3",
+        "options": {
+          "full_name": "font-iosevka-nerd-font"
+        }
+      },
       "font-jetbrains-mono-nerd-font": {
         "version": "2.3.3",
         "options": {
