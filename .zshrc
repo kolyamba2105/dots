@@ -121,6 +121,8 @@ alias cat="bat"
 alias ll="exa -la"
 alias ls="exa"
 
+alias z="zellij"
+
 # Put a desired node version in the end
 export NODE_PATH="/opt/homebrew/opt/node@16/bin"
 export PATH="$NODE_PATH:$PATH"
