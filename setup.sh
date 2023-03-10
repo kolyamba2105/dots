@@ -32,5 +32,8 @@ ln -s $PWD/.config/htop ~/.config/htop
 rm -rf ~/.config/zellij
 ln -s $PWD/.config/zellij ~/.config/zellij
 
+rm ~/.config/zellij/themes/catppuccin.yaml
+ln -s $PWD/.config/zellij/catppuccin/catppuccin.yaml ~/.config/zellij/themes/catppuccin.yaml
+
 rm ~/.hushlogin
 ln -s $PWD/.hushlogin ~/.hushlogin
