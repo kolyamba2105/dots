@@ -29,5 +29,8 @@ ln -s $PWD/.config/nvim ~/.config/nvim
 rm -rf ~/.config/htop
 ln -s $PWD/.config/htop ~/.config/htop
 
+rm -rf ~/.config/zellij
+ln -s $PWD/.config/zellij ~/.config/zellij
+
 rm ~/.hushlogin
 ln -s $PWD/.hushlogin ~/.hushlogin
