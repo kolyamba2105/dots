@@ -33,6 +33,12 @@ ssh-keygen
 
 [Brewfile tips](https://gist.github.com/ChristopherA/a579274536aab36ea9966f301ff14f3f)
 
+## Install dependencies
+
+```sh
+brew bundle install --file ./brew/{a-or-b}/Brewfile
+```
+
 ## Install nvm
 
 ```sh
