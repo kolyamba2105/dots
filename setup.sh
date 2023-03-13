@@ -10,8 +10,6 @@ fi
 
 dir="zsh/$1"
 
-mkdir -p ~/.config
-
 rm ~/.fzf.zsh
 ln -s $PWD/$dir/.fzf.zsh ~/.fzf.zsh
 
@@ -24,11 +22,16 @@ ln -s $PWD/$dir/.zprofile ~/.zprofile
 rm ~/.zshrc
 ln -s $PWD/$dir/.zshrc ~/.zshrc
 
+rm ~/.gitconfig
+ln -s $PWD/.gitconfig ~/.gitconfig
+
+rm ~/.hushlogin
+ln -s $PWD/.hushlogin ~/.hushlogin
+
 rm ~/.tmux.conf
 ln -s $PWD/.tmux.conf ~/.tmux.conf
 
-rm ~/.gitconfig
-ln -s $PWD/.gitconfig ~/.gitconfig
+mkdir -p ~/.config
 
 rm -rf ~/.config/alacritty
 ln -s $PWD/.config/alacritty ~/.config/alacritty
@@ -41,9 +44,3 @@ ln -s $PWD/.config/htop ~/.config/htop
 
 rm -rf ~/.config/zellij
 ln -s $PWD/.config/zellij ~/.config/zellij
-
-rm ~/.config/zellij/themes/catppuccin.yaml
-ln -s $PWD/.config/zellij/catppuccin/catppuccin.yaml ~/.config/zellij/themes/catppuccin.yaml
-
-rm ~/.hushlogin
-ln -s $PWD/.hushlogin ~/.hushlogin
