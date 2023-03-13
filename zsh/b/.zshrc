@@ -112,12 +112,16 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=nvim
 export VISUAL=nvim
 
-alias cat="bat"
 alias cp="cp -i"
-alias ll="exa -la"
-alias ls="exa"
 alias mv="mv -i"
 alias rm="rm -i"
+
+alias cat="bat"
+
+alias ll="exa -la"
+alias ls="exa"
+
+alias z="zellij"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
