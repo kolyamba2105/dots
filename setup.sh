@@ -1,24 +1,34 @@
 #!/bin/sh
 
+if [ $# -eq 0 ]; then
+  echo "Error: No argument provided"
+  exit 1
+elif [ "$1" != "a" ] && [ "$1" != "b" ]; then
+  echo "Error: Argument must be 'a' or 'b'"
+  exit 1
+fi
+
+dir="zsh/$1"
+
 mkdir -p ~/.config
 
-rm ~/.zshrc
-ln -s $PWD/.zshrc ~/.zshrc
+rm ~/.fzf.zsh
+ln -s $PWD/$dir/.fzf.zsh ~/.fzf.zsh
+
+rm ~/.p10k.zsh
+ln -s $PWD/$dir/.p10k.zsh ~/.p10k.zsh
 
 rm ~/.zprofile
-ln -s $PWD/.zprofile ~/.zprofile
+ln -s $PWD/$dir/.zprofile ~/.zprofile
+
+rm ~/.zshrc
+ln -s $PWD/$dir/.zshrc ~/.zshrc
 
 rm ~/.tmux.conf
 ln -s $PWD/.tmux.conf ~/.tmux.conf
 
-rm ~/.p10k.zsh
-ln -s $PWD/.p10k.zsh ~/.p10k.zsh
-
 rm ~/.gitconfig
 ln -s $PWD/.gitconfig ~/.gitconfig
-
-rm ~/.fzf.zsh
-ln -s $PWD/.fzf.zsh ~/.fzf.zsh
 
 rm -rf ~/.config/alacritty
 ln -s $PWD/.config/alacritty ~/.config/alacritty
