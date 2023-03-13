@@ -67,5 +67,5 @@ cd ~/configs
 git submodule init
 git submodule update
 
-sh setup.sh
+sh setup.sh <a-or-b>
 ```
