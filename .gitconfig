@@ -6,37 +6,39 @@
   ui = true
 
 [alias]
-  a = add
-  b = branch
-  bd = branch -d
-  c = commit
-  ca = commit --amend
+  a   = add
+  b   = branch
+  bd  = branch -d
+  c   = commit
+  ca  = commit --amend
   can = commit --amend --no-edit
-  ch = checkout
+  ch  = checkout
   chb = checkout -b
-  d = diff
-  dc = diff --cached
-  l = log --graph
-  p = push
-  pf = push -f
-  pl = pull
-  rb = rebase
+  d   = diff
+  dc  = diff --cached
+  l   = log --graph
+  p   = push
+  pf  = push -f
+  pl  = pull
+  plr = pull --rebase
+  rb  = rebase
   rba = rebase --abort
   rbc = rebase --continue
   rbi = rebase -i
   rbm = rebase master
-  rs = restore
+  rs  = restore
   rss = restore --staged
-  s = status
-  sw = switch
+  s   = status
+  sw  = switch
 
 [pager]
   branch = false
 
 [core]
-	editor = nvim
+  editor = nvim
 
 [diff]
-	tool = nvimdiff
+  tool = nvimdiff
+
 [merge]
-	tool = nvimdiff
+  tool = nvimdiff
