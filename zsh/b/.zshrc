@@ -121,7 +121,7 @@ alias cat="bat"
 alias ll="exa -la"
 alias ls="exa"
 
-alias z="zellij"
+alias fj="zellij"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
