@@ -28,6 +28,9 @@ ln -s $PWD/.gitconfig ~/.gitconfig
 rm ~/.hushlogin
 ln -s $PWD/.hushlogin ~/.hushlogin
 
+rm ~/.stylua.toml
+ln -s $PWD/.stylua.toml ~/.stylua.toml
+
 rm ~/.tmux.conf
 ln -s $PWD/.tmux.conf ~/.tmux.conf
 
