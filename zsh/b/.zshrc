@@ -122,6 +122,7 @@ alias ll="exa -la"
 alias ls="exa"
 
 alias fj="zellij"
+alias gui="gitui --theme catppuccin/theme/mocha.ron"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
