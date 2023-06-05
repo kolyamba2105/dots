@@ -22,9 +22,9 @@ brew "gnutls"
 brew "gnupg"
 brew "htop"
 brew "lua-language-server"
-brew "luajit", args: ["HEAD"]
+brew "luajit"
 brew "tree-sitter"
-brew "neovim"
+brew "neovim", args: ["HEAD"]
 brew "opam"
 brew "pinentry-mac"
 brew "postgresql@14", restart_service: true
