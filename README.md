@@ -23,6 +23,8 @@ ssh-keygen
 - [Install zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [Install zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
+**Note**: for each plugin follow *oh-my-zsh* installation steps
+
 ## Install HomeBrew
 
 ```sh
@@ -60,9 +62,9 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ```sh
 cd ~
-git clone https://github.com/kolyamba2105/mac-os-configs.git configs
+git clone https://github.com/kolyamba2105/dots.git
 
-cd ~/configs
+cd ~/dots
 
 git submodule init
 git submodule update
