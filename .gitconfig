@@ -1,6 +1,6 @@
 [user]
-	email = haravetskyy@gmail.com
-	name = kolyamba2105
+  email = haravetskyy@gmail.com
+  name = kolyamba2105
 
 [color]
   ui = true
@@ -33,6 +33,7 @@
 
 [pager]
   branch = false
+  stash = false
 
 [core]
   editor = nvim
