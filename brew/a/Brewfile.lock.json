@@ -1604,7 +1604,7 @@
         }
       },
       "betterdisplay": {
-        "version": "1.4.14",
+        "version": "1.4.15",
         "options": {
           "full_name": "betterdisplay"
         }
@@ -1616,7 +1616,7 @@
         }
       },
       "figma": {
-        "version": "116.10.8",
+        "version": "116.10.9",
         "options": {
           "full_name": "figma"
         }
@@ -1634,7 +1634,7 @@
         }
       },
       "google-chrome": {
-        "version": "114.0.5735.133",
+        "version": "114.0.5735.198",
         "options": {
           "full_name": "google-chrome"
         }
@@ -1646,13 +1646,13 @@
         }
       },
       "raycast": {
-        "version": "1.54.0",
+        "version": "1.54.1",
         "options": {
           "full_name": "raycast"
         }
       },
       "slack": {
-        "version": "4.32.127",
+        "version": "4.33.73",
         "options": {
           "full_name": "slack"
         }
@@ -1673,6 +1673,12 @@
         "version": "20230408-112425,69ae8472",
         "options": {
           "full_name": "wezterm"
+        }
+      },
+      "zoom": {
+        "version": "5.15.2.19786",
+        "options": {
+          "full_name": "zoom"
         }
       }
     }
