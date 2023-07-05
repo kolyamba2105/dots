@@ -133,12 +133,3 @@ export NVM_DIR="$HOME/.nvm"
 
 # To customize prompt, run `p10k configure` or edit ~/configs/.p10k.zsh.
 [[ ! -f ~/configs/.p10k.zsh ]] || source ~/configs/.p10k.zsh
-
-export FZF_DEFAULT_COMMAND="rg --files --hidden"
-export FZF_DEFAULT_OPTS="-m --height 100% --layout=reverse --border --inline-info"
-
-alias e="fzf --preview 'bat --style=full --color=always {+1}' | xargs -r $EDITOR"
-alias g="git log --oneline | fzf --preview 'git show {+1}'"
-alias h="history | fzf"
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
