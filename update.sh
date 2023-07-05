@@ -15,6 +15,8 @@ brew upgrade
 
 brew cleanup --prune=all
 
+rm $dir/Brewfile.lock.json
+
 brew bundle dump --force --file=$dir/Brewfile
 brew bundle install --file=$dir/Brewfile
 
