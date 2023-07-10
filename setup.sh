@@ -10,11 +10,6 @@ fi
 
 dir="zsh/$1"
 
-if [ "$1" = "a" ]; then
-  rm ~/.fzf.zsh
-  ln -s "$PWD/$dir/.fzf.zsh" ~/.fzf.zsh
-fi
-
 rm ~/.p10k.zsh
 ln -s $PWD/$dir/.p10k.zsh ~/.p10k.zsh
 
