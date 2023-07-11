@@ -25,6 +25,7 @@ brew "tree-sitter"
 brew "neovim", args: ["HEAD"]
 brew "pinentry-mac"
 brew "python@3.10"
+brew "ranger"
 brew "ripgrep"
 brew "stylua"
 brew "tmux"
