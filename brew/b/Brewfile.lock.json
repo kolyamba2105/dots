@@ -4,14 +4,8 @@
       "homebrew/bundle": {
         "revision": "2ab409bef9d94ce127bc611651d3af8ebb9edcdb"
       },
-      "homebrew/cask": {
-        "revision": "2633c79bf4d6bb01e09811c62898740a5afac5ad"
-      },
       "homebrew/cask-fonts": {
         "revision": "ab8647b238b73b8e512c08280a07511fa53a567b"
-      },
-      "homebrew/core": {
-        "revision": "03953b73769b91e3fe2f8bdb8291d42107eb34f6"
       },
       "homebrew/services": {
         "revision": "d39f864ddffda7a8c47dc95cd284b50683db9653"
