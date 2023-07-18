@@ -21,6 +21,7 @@ brew "lua-language-server"
 brew "luajit"
 brew "tree-sitter"
 brew "neovim", args: ["HEAD"]
+brew "pango"
 brew "pinentry-mac"
 brew "python@3.10"
 brew "ranger"
