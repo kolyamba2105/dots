@@ -19,6 +19,9 @@ ln -s $PWD/$dir/.zprofile ~/.zprofile
 rm ~/.zshrc
 ln -s $PWD/$dir/.zshrc ~/.zshrc
 
+rm ~/.amethyst.yml
+ln -s $PWD/.amethyst.yml ~/.amethyst.yml
+
 rm ~/.gitconfig
 ln -s $PWD/.gitconfig ~/.gitconfig
 
