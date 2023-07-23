@@ -86,8 +86,8 @@ increase-main:
   mod: <NONE> 
   key: <NONE>
 reevaluate-windows:
-  mod: <NONE> 
-  key: <NONE>
+  mod: mod1
+  key: space
 relaunch-amethyst:
   mod: mod1 
   key: q
@@ -95,8 +95,8 @@ select-column-layout:
   mod: <NONE> 
   key: <NONE>
 select-fullscreen-layout:
-  mod: mod1 
-  key: space
+  mod: <NONE>
+  key: <NONE>
 select-tall-layout:
   mod: <NONE> 
   key: <NONE>
