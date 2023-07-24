@@ -165,10 +165,10 @@ throw-space-9:
   key: <NONE>
 throw-space-left:
   mod: mod1 
-  key: left
+  key: p
 throw-space-right:
   mod: mod1 
-  key: right
+  key: n
 toggle-float:
   mod: <NONE> 
   key: <NONE>
