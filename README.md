@@ -23,7 +23,7 @@ ssh-keygen
 - [Install zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [Install zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-**Note**: for each plugin follow *oh-my-zsh* installation steps
+**Note**: for each plugin follow _oh-my-zsh_ installation steps
 
 ## Install HomeBrew
 
@@ -70,4 +70,30 @@ git submodule init
 git submodule update
 
 sh setup.sh <a-or-b>
+```
+
+## Useful MacOS commands
+
+- Reset Dock default settings
+
+```sh
+defaults delete com.apple.dock && killall Dock
+```
+
+- Change Dock size
+
+```sh
+defaults write com.apple.dock tilesize -int 72 && killall Dock
+```
+
+- Lock Dock size
+
+```sh
+defaults write com.apple.dock size-immutable -bool yes && killall Dock
+```
+
+- Organize LaunchPad apps
+
+```sh
+defaults write com.apple.dock ResetLaunchPad -bool true && killall Dock
 ```
