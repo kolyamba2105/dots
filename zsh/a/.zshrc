@@ -133,13 +133,6 @@ export PNPM_HOME="/Users/kolyamba/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
-# bun completions
-[ -s "/Users/kolyamba/.bun/_bun" ] && source "/Users/kolyamba/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
