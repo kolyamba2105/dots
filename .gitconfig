@@ -33,6 +33,8 @@
   rs  = restore
   rss = restore --staged
   s   = status
+  sh  = show
+  shh = show HEAD
   sw  = switch
 
 [pager]
