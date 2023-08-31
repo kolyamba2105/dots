@@ -121,7 +121,6 @@ alias cat="bat"
 alias ll="exa -la"
 alias ls="exa"
 
-alias fj="zellij"
 alias gui="gitui --theme catppuccin/theme/mocha.ron"
 
 export NVM_DIR="$HOME/.nvm"

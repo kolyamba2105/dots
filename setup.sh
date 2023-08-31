@@ -50,6 +50,3 @@ ln -s $PWD/.config/htop ~/.config/htop
 
 rm -rf ~/.config/gitui
 ln -s $PWD/.config/gitui ~/.config/gitui
-
-rm -rf ~/.config/zellij
-ln -s $PWD/.config/zellij ~/.config/zellij

@@ -121,7 +121,6 @@ alias cat="bat"
 alias ll="exa -la"
 alias ls="exa"
 
-alias fj="zellij"
 alias gui="gitui --theme catppuccin/theme/mocha.ron"
 
 # Put a desired node version in the end
