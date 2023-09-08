@@ -1,5 +1,6 @@
 # https://github.com/ianyh/Amethyst/blob/development/.amethyst.sample.yml
 layouts:
+  - tall
   - fullscreen
 
 mod1:
@@ -11,172 +12,172 @@ mod2:
   - shift
 
 cycle-layout-backward:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 cycle-layout:
-  mod: <NONE> 
-  key: <NONE>
-decrease-main:
-  mod: <NONE> 
-  key: <NONE>
-display-current-layout:
-  mod: <NONE> 
-  key: <NONE>
-expand-main:
-  mod: <NONE> 
-  key: <NONE>
-focus-ccw:
-  mod: mod1 
-  key: j
-focus-cw:
-  mod: mod1 
-  key: k
-focus-main:
-  mod: mod1 
-  key: m
-focus-screen-1:
-  mod: <NONE> 
-  key: <NONE>
-focus-screen-2:
-  mod: <NONE> 
-  key: <NONE>
-focus-screen-3:
-  mod: <NONE> 
-  key: <NONE>
-focus-screen-4:
-  mod: <NONE> 
-  key: <NONE>
-focus-screen-ccw:
-  mod: mod1 
-  key: h
-focus-screen-cw:
-  mod: mod1 
-  key: l
-focus-space-10:
-  mod: <NONE> 
-  key: <NONE>
-focus-space-1:
-  mod: <NONE> 
-  key: <NONE>
-focus-space-2:
-  mod: <NONE> 
-  key: <NONE>
-focus-space-3:
-  mod: <NONE> 
-  key: <NONE>
-focus-space-4:
-  mod: <NONE> 
-  key: <NONE>
-focus-space-5:
-  mod: <NONE> 
-  key: <NONE>
-focus-space-6:
-  mod: <NONE> 
-  key: <NONE>
-focus-space-7:
-  mod: <NONE> 
-  key: <NONE>
-focus-space-8:
-  mod: <NONE> 
-  key: <NONE>
-focus-space-9:
-  mod: <NONE> 
-  key: <NONE>
-increase-main:
-  mod: <NONE> 
-  key: <NONE>
-reevaluate-windows:
   mod: mod1
   key: space
+decrease-main:
+  mod: <NONE>
+  key: <NONE>
+display-current-layout:
+  mod: <NONE>
+  key: <NONE>
+expand-main:
+  mod: mod1
+  key: l
+focus-ccw:
+  mod: mod1
+  key: k
+focus-cw:
+  mod: mod1
+  key: j
+focus-main:
+  mod: mod1
+  key: m
+focus-screen-1:
+  mod: <NONE>
+  key: <NONE>
+focus-screen-2:
+  mod: <NONE>
+  key: <NONE>
+focus-screen-3:
+  mod: <NONE>
+  key: <NONE>
+focus-screen-4:
+  mod: <NONE>
+  key: <NONE>
+focus-screen-ccw:
+  mod: mod1
+  key: left
+focus-screen-cw:
+  mod: mod1
+  key: right
+focus-space-10:
+  mod: <NONE>
+  key: <NONE>
+focus-space-1:
+  mod: <NONE>
+  key: <NONE>
+focus-space-2:
+  mod: <NONE>
+  key: <NONE>
+focus-space-3:
+  mod: <NONE>
+  key: <NONE>
+focus-space-4:
+  mod: <NONE>
+  key: <NONE>
+focus-space-5:
+  mod: <NONE>
+  key: <NONE>
+focus-space-6:
+  mod: <NONE>
+  key: <NONE>
+focus-space-7:
+  mod: <NONE>
+  key: <NONE>
+focus-space-8:
+  mod: <NONE>
+  key: <NONE>
+focus-space-9:
+  mod: <NONE>
+  key: <NONE>
+increase-main:
+  mod: <NONE>
+  key: <NONE>
+reevaluate-windows:
+  mod: <NONE>
+  key: <NONE>
 relaunch-amethyst:
-  mod: mod1 
+  mod: mod1
   key: q
 select-column-layout:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 select-fullscreen-layout:
   mod: <NONE>
   key: <NONE>
 select-tall-layout:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 select-wide-layout:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 shrink-main:
-  mod: <NONE> 
-  key: <NONE>
+  mod: mod1
+  key: h
 swap-ccw:
-  mod: mod2 
-  key: j
-swap-cw:
-  mod: mod2 
+  mod: mod2
   key: k
+swap-cw:
+  mod: mod2
+  key: j
 swap-main:
-  mod: mod1 
+  mod: mod1
   key: enter
 swap-screen-ccw:
-  mod: mod2 
-  key: h
+  mod: mod2
+  key: left
 swap-screen-cw:
-  mod: mod2 
-  key: l
+  mod: mod2
+  key: right
 throw-screen-1:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-screen-2:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-screen-3:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-screen-4:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-space-10:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-space-1:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-space-2:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-space-3:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-space-4:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-space-5:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-space-6:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-space-7:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-space-8:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-space-9:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 throw-space-left:
-  mod: mod1 
+  mod: mod1
   key: p
 throw-space-right:
-  mod: mod1 
+  mod: mod1
   key: n
 toggle-float:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 toggle-focus-follows-mouse:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 toggle-tiling:
-  mod: <NONE> 
+  mod: <NONE>
   key: <NONE>
 
 debug-layout-info: false
@@ -205,4 +206,4 @@ window-margins: true
 window-max-count: 0
 window-minimum-height: 0
 window-minimum-width: 0
-window-resize-step: 10
+window-resize-step: 5
