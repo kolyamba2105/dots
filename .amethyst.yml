@@ -1,7 +1,7 @@
 # https://github.com/ianyh/Amethyst/blob/development/.amethyst.sample.yml
 layouts:
-  - tall
   - fullscreen
+  - tall
 
 mod1:
   - option
@@ -48,11 +48,11 @@ focus-screen-4:
   mod: <NONE>
   key: <NONE>
 focus-screen-ccw:
-  mod: mod1
-  key: left
+  mod: <NONE>
+  key: <NONE>
 focus-screen-cw:
-  mod: mod1
-  key: right
+  mod: <NONE>
+  key: <NONE>
 focus-space-10:
   mod: <NONE>
   key: <NONE>
@@ -117,11 +117,11 @@ swap-main:
   mod: mod1
   key: enter
 swap-screen-ccw:
-  mod: mod2
-  key: left
+  mod: <NONE>
+  key: <NONE>
 swap-screen-cw:
-  mod: mod2
-  key: right
+  mod: <NONE>
+  key: <NONE>
 throw-screen-1:
   mod: <NONE>
   key: <NONE>
