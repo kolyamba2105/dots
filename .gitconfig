@@ -25,6 +25,7 @@
   pf  = push -f
   pl  = pull
   plr = pull --rebase
+  plm = !git checkout master && git pull --rebase && git checkout -
   rb  = rebase
   rba = rebase --abort
   rbc = rebase --continue
