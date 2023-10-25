@@ -3,7 +3,7 @@ local wezterm = require("wezterm")
 return {
   color_scheme = "Catppuccin Mocha",
   font = wezterm.font("JetBrainsMono Nerd Font", { weight = 500 }),
-  font_size = 14,
+  font_size = 12,
   native_macos_fullscreen_mode = true,
   use_fancy_tab_bar = false,
   window_decorations = "RESIZE",
