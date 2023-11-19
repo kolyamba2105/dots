@@ -1,6 +1,7 @@
 # https://github.com/ianyh/Amethyst/blob/development/.amethyst.sample.yml
 layouts:
   - fullscreen
+  - row
   - tall
 
 mod1:
@@ -201,7 +202,7 @@ screen-padding-right: 0
 screen-padding-top: 0
 smart-window-margins: false
 use-canary-build: false
-window-margin-size: 10
+window-margin-size: 8
 window-margins: true
 window-max-count: 0
 window-minimum-height: 0
