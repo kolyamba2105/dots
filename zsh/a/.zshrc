@@ -139,5 +139,13 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+export FZF_DEFAULT_COMMAND="rg --files --hidden"
+export FZF_DEFAULT_OPTS="-m --height 100% --layout=reverse --border --inline-info"
+
+alias e="fzf --preview 'bat --style=full --color=always {+1}' | xargs -r $EDITOR"
+alias g="git log --oneline | fzf --preview 'git show {+1} | bat --style=full --color=always'"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # opam configuration
 [[ ! -r /Users/kolyamba/.opam/opam-init/init.zsh ]] || source /Users/kolyamba/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
