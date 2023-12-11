@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "d6fbeee54ba344be59731ff3e93fb105b2567e34"
+        "revision": "ea1f4fafc7786ef4d21eda4372ada8d0948e0255"
       },
       "homebrew/cask-fonts": {
-        "revision": "60a087f8f3b4824c8a96279ec0a62346de58b6c2"
+        "revision": "bab4952d33a03664f500e5db514e4cd31c06c703"
       },
       "homebrew/services": {
-        "revision": "68336e969809338fa3f072dc05091912fa710a6d"
+        "revision": "25cf98dbe8fff01cc797e083e0b1cd23f933bb5b"
       },
       "koekeishiya/formulae": {
         "revision": "d4c95802ca991ea41512320af412072e775c1eb7"
@@ -1025,7 +1025,7 @@
         }
       },
       "neovim": {
-        "version": "HEAD-0818d65",
+        "version": "HEAD-6d698c8",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
@@ -1646,7 +1646,7 @@
         }
       },
       "postman": {
-        "version": "10.20.0",
+        "version": "10.21.0",
         "options": {
           "full_name": "postman"
         }
@@ -1680,12 +1680,12 @@
   "system": {
     "macos": {
       "sonoma": {
-        "HOMEBREW_VERSION": "4.1.24",
+        "HOMEBREW_VERSION": "4.1.25",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.0.0.0.1.1694021235",
         "Xcode": "15.0",
-        "macOS": "14.1.1"
+        "macOS": "14.1.2"
       }
     }
   }
