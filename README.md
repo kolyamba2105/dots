@@ -71,6 +71,10 @@ git submodule update
 sh setup.sh <a-or-b>
 ```
 
+## Configure alt-tab
+
+Configuration screenshots can be found [here](./.config/alt-tab)
+
 ## Useful MacOS commands
 
 - Reset Dock default settings
