@@ -22,7 +22,6 @@ brew "gnupg"
 brew "htop"
 brew "lua-language-server"
 brew "luajit"
-brew "luarocks"
 brew "tree-sitter"
 brew "neovim", args: ["HEAD"]
 brew "pango"
