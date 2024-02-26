@@ -118,8 +118,8 @@ alias rm="rm -i"
 
 alias cat="bat"
 
-alias ll="eza -la"
-alias ls="eza"
+alias ll="lsd -la"
+alias ls="lsd"
 
 alias gui="gitui --theme catppuccin/theme/mocha.ron"
 
