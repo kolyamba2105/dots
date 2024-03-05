@@ -122,6 +122,7 @@ alias ll="lsd -la"
 alias ls="lsd"
 
 alias gui="gitui --theme catppuccin/theme/mocha.ron"
+alias neovide="neovide --frame transparent --title-hidden"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
