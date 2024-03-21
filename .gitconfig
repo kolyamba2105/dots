@@ -50,3 +50,6 @@
 
 [merge]
   tool = nvimdiff
+
+[push]
+	autoSetupRemote = true
