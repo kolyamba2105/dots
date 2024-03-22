@@ -23,6 +23,7 @@
   l   = log --graph
   p   = push
   pf  = push -f
+  pfn  = push -f --no-verify
   pl  = pull
   plr = pull --rebase
   plm = !git checkout master && git pull --rebase && git checkout -
