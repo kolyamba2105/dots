@@ -185,7 +185,7 @@ enables-layout-hud-on-space-change: false
 enables-layout-hud: false
 float-small-windows: true
 floating-is-blacklist: true
-floating: []
+floating: [] # ["com.github.wez.wezterm"]
 focus-follows-mouse: false
 follow-space-thrown-windows: true
 ignore-menu-bar: false
