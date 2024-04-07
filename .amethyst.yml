@@ -27,14 +27,14 @@ expand-main:
   mod: mod1
   key: l
 focus-ccw:
-  mod: <NONE>
-  key: <NONE>
+  mod: mod1
+  key: k
 focus-cw:
-  mod: <NONE>
-  key: <NONE>
+  mod: mod1
+  key: j
 focus-main:
-  mod: <NONE>
-  key: <NONE>
+  mod: mod1
+  key: m
 focus-screen-1:
   mod: <NONE>
   key: <NONE>
