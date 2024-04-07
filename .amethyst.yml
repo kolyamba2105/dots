@@ -1,6 +1,7 @@
 # https://github.com/ianyh/Amethyst/blob/development/.amethyst.sample.yml
 layouts:
   - fullscreen
+  - tall
 
 mod1:
   - option
