@@ -20,7 +20,7 @@
   cpc = cherry-pick --continue
   d   = diff
   dc  = diff --cached
-  l   = log --graph
+  l   = !git log --oneline | fzf --preview 'git show {+1} | bat --style=full --color=always'
   p   = push
   pf  = push -f
   pfn  = push -f --no-verify
