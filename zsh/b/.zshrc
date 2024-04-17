@@ -124,6 +124,7 @@ alias ls="lsd"
 alias gui="gitui --theme catppuccin/theme/mocha.ron"
 alias neovide="neovide --frame transparent --title-hidden"
 
+alias ccc='cd "$(fd -t d --max-depth 2 . ~/code | fzf)"'
 alias cdd="cd ~/dots"
 
 export NVM_DIR="$HOME/.nvm"
@@ -138,5 +139,6 @@ export FZF_DEFAULT_OPTS="-m --height 100% --layout=reverse --border --inline-inf
 
 alias e="fzf --preview 'bat --style=full --color=always {+1}' | xargs -r $EDITOR"
 alias g="git log --oneline | fzf --preview 'git show {+1} | bat --style=full --color=always'"
+
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
