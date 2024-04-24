@@ -2,8 +2,8 @@ local wezterm = require("wezterm")
 
 return {
   color_scheme = "Catppuccin Mocha",
-  font = wezterm.font("JetBrainsMono NF", { weight = 500 }),
-  font_size = 14,
+  font = wezterm.font("Iosevka Nerd Font", { weight = 500 }),
+  font_size = 16,
   native_macos_fullscreen_mode = true,
   use_fancy_tab_bar = false,
   window_background_opacity = 0.999, -- Fixes MacOS animation lag
