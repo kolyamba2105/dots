@@ -984,7 +984,7 @@
         }
       },
       "neovim": {
-        "version": "HEAD-ade1b12",
+        "version": "HEAD-91892f5",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
