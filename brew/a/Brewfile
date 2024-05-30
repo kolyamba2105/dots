@@ -24,7 +24,7 @@ brew "lsd"
 brew "lua-language-server"
 brew "luajit"
 brew "tree-sitter"
-brew "neovim", args: ["HEAD"]
+brew "neovim"
 brew "opam"
 brew "pandoc"
 brew "pinentry-mac"
