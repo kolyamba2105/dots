@@ -121,7 +121,7 @@ alias cat="bat"
 alias ll="lsd -la"
 alias ls="lsd"
 
-alias gui="gitui --theme catppuccin/theme/mocha.ron"
+alias gui="gitui --theme ~/.config/gitui/catppuccin/themes/catppuccin-mocha.ron"
 alias neovide="neovide --frame transparent --title-hidden"
 
 alias ccc='cd "$(fd -t d --max-depth 2 . ~/code | fzf)"'
