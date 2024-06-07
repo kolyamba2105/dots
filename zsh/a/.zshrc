@@ -121,7 +121,7 @@ alias cat="bat"
 alias ll="lsd -la"
 alias ls="lsd"
 
-alias gui="gitui --theme catppuccin/theme/mocha.ron"
+alias gui="gitui --theme ~/.config/gitui/catppuccin/themes/catppuccin-mocha.ron"
 
 # Put a desired node version in the end
 export NODE_PATH="/opt/homebrew/opt/node@16/bin"
