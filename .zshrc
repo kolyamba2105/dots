@@ -6,7 +6,9 @@ export ZSH="$HOME/.oh-my-zsh"
 zstyle ':omz:update' frequency 7
 zstyle ':omz:update' mode auto
 
-plugins=(git vi-mode)
+plugins=(git nvm sudo vi-mode)
+
+zstyle ':omz:plugins:nvm' lazy yes
 
 source $ZSH/oh-my-zsh.sh
 
@@ -29,11 +31,6 @@ setopt sharehistory
 
 export EDITOR=nvim
 export VISUAL=nvim
-
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # fzf
 source <(fzf --zsh)
