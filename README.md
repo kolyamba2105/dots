@@ -16,15 +16,6 @@ ssh-keygen
 
 - Add content of `~/.ssh/id_rsa.pub` on Github
 
-## Setup ZSH
-
-- [Install ohmyzsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
-- [Install powerlevel10k](https://github.com/romkatv/powerlevel10k)
-- [Install zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-- [Install zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-
-**Note**: for each plugin follow _oh-my-zsh_ installation steps
-
 ## Install HomeBrew
 
 ```sh
