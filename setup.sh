@@ -1,26 +1,7 @@
 #!/bin/sh
 
-if [ $# -eq 0 ]; then
-  echo "Error: No argument provided"
-  exit 1
-elif [ "$1" != "a" ] && [ "$1" != "b" ]; then
-  echo "Error: Argument must be 'a' or 'b'"
-  exit 1
-fi
-
-dir="zsh/$1"
-
-rm ~/.fzf.zsh
-ln -s $PWD/$dir/.fzf.zsh ~/.fzf.zsh
-
-rm ~/.p10k.zsh
-ln -s $PWD/$dir/.p10k.zsh ~/.p10k.zsh
-
-rm ~/.zprofile
-ln -s $PWD/$dir/.zprofile ~/.zprofile
-
 rm ~/.zshrc
-ln -s $PWD/$dir/.zshrc ~/.zshrc
+ln -s $PWD/.zshrc ~/.zshrc
 
 rm ~/.amethyst.yml
 ln -s $PWD/.amethyst.yml ~/.amethyst.yml
