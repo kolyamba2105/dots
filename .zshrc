@@ -51,4 +51,4 @@ alias ls="lsd"
 alias cat="bat"
 alias gui="gitui --theme ~/.config/gitui/catppuccin/themes/catppuccin-mocha.ron"
 
-eval "$(oh-my-posh init zsh)"
+eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/ys.omp.json)"
