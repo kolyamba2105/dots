@@ -16,6 +16,12 @@ ssh-keygen
 
 - Add content of `~/.ssh/id_rsa.pub` on Github
 
+## Install oh-my-zsh
+
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 ## Install HomeBrew
 
 ```sh
