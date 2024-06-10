@@ -1,17 +1,17 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# plugins
-ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
-[ ! -d $ZINIT_HOME ] && mkdir -p "$(dirname $ZINIT_HOME)"
-[ ! -d $ZINIT_HOME/.git ] && git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
-source "${ZINIT_HOME}/zinit.zsh"
+# oh-my-zsh
+export ZSH="$HOME/.oh-my-zsh"
 
-zinit light zsh-users/zsh-autosuggestions
-zinit light zsh-users/zsh-completions
-zinit light zsh-users/zsh-syntax-highlighting
+zstyle ':omz:update' frequency 7
+zstyle ':omz:update' mode auto
 
-zinit ice depth=1
-zinit light jeffreytse/zsh-vi-mode
+plugins=(git vi-mode)
+
+source $ZSH/oh-my-zsh.sh
+
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # history
 HISTDUP=erase
@@ -51,4 +51,5 @@ alias ls="lsd"
 alias cat="bat"
 alias gui="gitui --theme ~/.config/gitui/catppuccin/themes/catppuccin-mocha.ron"
 
+# oh-my-posh
 eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/ys.omp.json)"
