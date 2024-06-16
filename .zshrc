@@ -38,6 +38,8 @@ source <(fzf --zsh)
 export FZF_DEFAULT_COMMAND="rg --files --hidden"
 export FZF_DEFAULT_OPTS="-m --height 100% --layout=reverse --border --inline-info"
 
+alias c="clear"
+
 alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"
