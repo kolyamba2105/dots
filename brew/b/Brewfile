@@ -46,7 +46,7 @@ brew "wget"
 brew "yarn"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
-brew "jandedobbeleer/oh-my-posh/oh-my-posh"
+brew "jandedobbeleer/oh-my-posh/oh-my-posh", link: false
 brew "mongodb/brew/mongodb-community"
 cask "alacritty"
 cask "alt-tab"
