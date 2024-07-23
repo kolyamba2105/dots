@@ -51,4 +51,4 @@ alias cat="bat"
 alias gui="gitui --theme ~/.config/gitui/catppuccin/themes/catppuccin-mocha.ron"
 
 # oh-my-posh
-eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/ys.omp.json)"
+eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/half-life.omp.json)"
