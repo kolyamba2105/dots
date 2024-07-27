@@ -1890,12 +1890,6 @@
           "full_name": "amethyst"
         }
       },
-      "arc": {
-        "version": "1.53.0,52080",
-        "options": {
-          "full_name": "arc"
-        }
-      },
       "aws-vault": {
         "version": "7.2.0",
         "options": {
@@ -1968,12 +1962,6 @@
           "full_name": "microsoft-teams"
         }
       },
-      "neovide": {
-        "version": "0.13.3",
-        "options": {
-          "full_name": "neovide"
-        }
-      },
       "podman-desktop": {
         "version": "1.11.1",
         "options": {
@@ -2002,12 +1990,6 @@
         "version": "20240203-110809,5046fc22",
         "options": {
           "full_name": "wezterm"
-        }
-      },
-      "zed": {
-        "version": "0.145.1",
-        "options": {
-          "full_name": "zed"
         }
       },
       "zoom": {
