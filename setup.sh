@@ -3,6 +3,9 @@
 rm ~/.zshrc
 ln -s $PWD/.zshrc ~/.zshrc
 
+rm ~/.aerospace.toml
+ln -s $PWD/.aerospace.toml ~/.aerospace.toml
+
 rm ~/.amethyst.yml
 ln -s $PWD/.amethyst.yml ~/.amethyst.yml
 
