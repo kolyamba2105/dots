@@ -23,10 +23,10 @@
   l   = log --graph
   p   = push
   pf  = push -f
-  pfn  = push -f --no-verify
+  pfn = push -f --no-verify
   pl  = pull
-  plr = pull --rebase
   plm = !git checkout master && git pull --rebase && git checkout -
+  plr = pull --rebase
   rb  = rebase
   rba = rebase --abort
   rbc = rebase --continue
@@ -37,6 +37,7 @@
   s   = status
   sh  = show
   shh = show HEAD
+  st  = "!f() { git diff --stat HEAD~$1 HEAD; }; f"
   sw  = switch
 
 [pager]
