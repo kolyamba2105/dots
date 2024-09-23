@@ -3,6 +3,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
 
+ZSH_THEME="half-life"
+
 zstyle ':omz:update' frequency 7
 zstyle ':omz:update' mode auto
 
@@ -49,6 +51,3 @@ alias ls="lsd"
 
 alias cat="bat"
 alias gui="gitui --theme ~/.config/gitui/catppuccin/themes/catppuccin-mocha.ron"
-
-# oh-my-posh
-eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/half-life.omp.json)"
