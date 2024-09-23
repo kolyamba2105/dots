@@ -4,7 +4,7 @@ local config = wezterm.config_builder()
 
 config.color_scheme = "Catppuccin Mocha"
 config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = 500 })
-config.font_size = 15
+config.font_size = 14
 config.native_macos_fullscreen_mode = true
 config.use_fancy_tab_bar = false
 config.window_background_opacity = 0.999 -- Fixes MacOS animation lag
