@@ -7,3 +7,6 @@
 [submodule ".config/gitui/catppuccin"]
 	path = .config/gitui/catppuccin
 	url = git@github.com:catppuccin/gitui.git
+[submodule ".config/btop/themes"]
+	path = .config/btop/themes
+	url = git@github.com:catppuccin/btop.git
