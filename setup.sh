@@ -29,6 +29,9 @@ mkdir -p ~/.config
 rm -rf ~/.config/alacritty
 ln -s $PWD/.config/alacritty ~/.config/alacritty
 
+rm -rf ~/.config/btop
+ln -s $PWD/.config/btop ~/.config/btop
+
 rm -rf ~/.config/nvim
 ln -s $PWD/.config/nvim ~/.config/nvim
 
