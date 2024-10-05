@@ -58,7 +58,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ```sh
 cd ~
-git clone https://github.com/kolyamba2105/dots.git
+git clone --recurse-submodules https://github.com/kolyamba2105/dots.git
 
 cd ~/dots
 
