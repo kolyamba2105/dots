@@ -8,7 +8,7 @@ ZSH_THEME="half-life"
 zstyle ':omz:update' frequency 7
 zstyle ':omz:update' mode auto
 
-plugins=(git nvm sudo vi-mode)
+plugins=(git nvm vi-mode)
 
 zstyle ':omz:plugins:nvm' lazy yes
 
