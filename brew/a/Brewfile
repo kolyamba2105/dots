@@ -31,7 +31,7 @@ brew "opam"
 brew "pandoc"
 brew "pinentry-mac"
 brew "pnpm"
-brew "postgresql@14", restart_service: true
+brew "postgresql@16", restart_service: true
 brew "python@3.10"
 brew "ripgrep"
 brew "stylua"
