@@ -34,6 +34,9 @@ setopt sharehistory
 export EDITOR=nvim
 export VISUAL=nvim
 
+# path
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+
 # fzf
 source <(fzf --zsh)
 
