@@ -3,7 +3,7 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 config.color_scheme = "Catppuccin Mocha"
-config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = 500 })
+config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = 600 })
 config.font_size = 14
 config.native_macos_fullscreen_mode = true
 config.use_fancy_tab_bar = false
