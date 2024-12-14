@@ -30,6 +30,7 @@ brew "lua-language-server"
 brew "luajit"
 brew "tree-sitter"
 brew "neovim"
+brew "node@22", link: true
 brew "opam"
 brew "pandoc"
 brew "pinentry-mac"
