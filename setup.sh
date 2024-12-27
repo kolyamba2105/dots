@@ -40,3 +40,6 @@ ln -s $PWD/.config/htop ~/.config/htop
 
 rm -rf ~/.config/gitui
 ln -s $PWD/.config/gitui ~/.config/gitui
+
+rm -rf ~/.config/ghostty
+ln -s $PWD/.config/ghostty ~/.config/ghostty
