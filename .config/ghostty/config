@@ -1,7 +1,7 @@
 cursor-opacity = 0.5
 font-size = 14
 font-thicken = true
-macos-titlebar-style = hidden
+macos-titlebar-style = tabs
 theme = catppuccin-mocha
 window-padding-x = 12
 window-padding-y = 12
