@@ -18,11 +18,18 @@ config.window_padding = { bottom = "0.75cell", left = "0.75cell", right = "0.75c
 local function format(path) return path == "/" and path or path:sub(path:match(".*/()")) end
 
 wezterm.on("format-tab-title", function(tab)
+    local bg = "#11111b"
+    local fg = "#cdd6f4"
+
+    if tab.is_active then bg = "#1e1e2e" end
+
     local x = tab.active_pane.pane_id
     local y = format(tab.active_pane.current_working_dir.path)
     local z = tab.active_pane.foreground_process_name:match("([^/\\]+)$")
 
-    return string.format(" [%i]  %s ->  %s ", x, y, z)
+    local title = string.format(" [%i]  %s ->  %s ", x, y, z)
+
+    return { { Background = { Color = bg } }, { Foreground = { Color = fg } }, { Text = title } }
 end)
 
 return config
