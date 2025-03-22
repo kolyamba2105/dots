@@ -22,7 +22,7 @@ wezterm.on("format-tab-title", function(tab)
     local y = format(tab.active_pane.current_working_dir.path)
     local z = tab.active_pane.foreground_process_name:match("([^/\\]+)$")
 
-    return string.format(" [%i] %s -> %s ", x, y, z)
+    return string.format(" [%i]  %s ->  %s ", x, y, z)
 end)
 
 return config
