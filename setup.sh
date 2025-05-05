@@ -35,9 +35,6 @@ ln -s $PWD/.config/btop ~/.config/btop
 rm -rf ~/.config/nvim
 ln -s $PWD/.config/nvim ~/.config/nvim
 
-rm -rf ~/.config/htop
-ln -s $PWD/.config/htop ~/.config/htop
-
 rm -rf ~/.config/gitui
 ln -s $PWD/.config/gitui ~/.config/gitui
 
