@@ -1,10 +1,3 @@
-[user]
-  email = haravetskyy@gmail.com
-  name = kolyamba2105
-
-[color]
-  ui = true
-
 [alias]
   a   = add
   b   = branch
@@ -40,18 +33,35 @@
   st  = "!f() { git diff --stat HEAD~$1 HEAD; }; f"
   sw  = switch
 
-[pager]
-  branch = false
-  stash = false
+[color]
+  ui = true
 
 [core]
   editor = nvim
+  pager = delta
+
+[delta]
+  dark = true
+  line-numbers = true
+  navigate = true
+  side-by-side = true
 
 [diff]
   tool = nvimdiff
 
+[interactive]
+  diffFilter = delta --color-only
+
 [merge]
   tool = nvimdiff
 
+[pager]
+  branch = false
+  stash = false
+
 [push]
-	autoSetupRemote = true
+  autoSetupRemote = true
+
+[user]
+  email = haravetskyy@gmail.com
+  name = kolyamba2105
