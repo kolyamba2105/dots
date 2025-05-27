@@ -35,6 +35,9 @@ ln -s $PWD/.config/bat ~/.config/bat
 rm -rf ~/.config/btop
 ln -s $PWD/.config/btop ~/.config/btop
 
+rm -rf ~/.config/delta
+ln -s $PWD/.config/delta ~/.config/delta
+
 rm -rf ~/.config/nvim
 ln -s $PWD/.config/nvim ~/.config/nvim
 
