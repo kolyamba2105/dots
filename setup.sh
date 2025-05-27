@@ -29,6 +29,9 @@ mkdir -p ~/.config
 rm -rf ~/.config/alacritty
 ln -s $PWD/.config/alacritty ~/.config/alacritty
 
+rm -rf ~/.config/bat
+ln -s $PWD/.config/bat ~/.config/bat
+
 rm -rf ~/.config/btop
 ln -s $PWD/.config/btop ~/.config/btop
 
