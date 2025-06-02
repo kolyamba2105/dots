@@ -4,6 +4,3 @@
 [submodule ".config/alacritty/catppuccin"]
 	path = .config/alacritty/catppuccin
 	url = git@github.com:catppuccin/alacritty.git
-[submodule ".config/gitui/catppuccin"]
-	path = .config/gitui/catppuccin
-	url = git@github.com:catppuccin/gitui.git
