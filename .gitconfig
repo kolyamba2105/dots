@@ -42,16 +42,12 @@
 
 [delta]
   dark = true
-  features = catppuccin-mocha
   line-numbers = true
   navigate = true
   side-by-side = true
 
 [diff]
   tool = nvimdiff
-
-[include]
-  path = ~/.config/delta/themes/catppuccin.gitconfig
 
 [interactive]
   diffFilter = delta --color-only
