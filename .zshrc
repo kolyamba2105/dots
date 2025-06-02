@@ -53,4 +53,3 @@ alias ll="lsd -la"
 alias ls="lsd"
 
 alias cat="bat"
-alias gui="gitui --theme ~/.config/gitui/catppuccin/themes/catppuccin-mocha.ron"
