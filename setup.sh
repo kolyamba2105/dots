@@ -41,8 +41,5 @@ ln -s $PWD/.config/delta ~/.config/delta
 rm -rf ~/.config/nvim
 ln -s $PWD/.config/nvim ~/.config/nvim
 
-rm -rf ~/.config/gitui
-ln -s $PWD/.config/gitui ~/.config/gitui
-
 rm -rf ~/.config/ghostty
 ln -s $PWD/.config/ghostty ~/.config/ghostty
