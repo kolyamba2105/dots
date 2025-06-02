@@ -26,9 +26,6 @@ ln -s $PWD/.wezterm.lua ~/.wezterm.lua
 
 mkdir -p ~/.config
 
-rm -rf ~/.config/alacritty
-ln -s $PWD/.config/alacritty ~/.config/alacritty
-
 rm -rf ~/.config/bat
 ln -s $PWD/.config/bat ~/.config/bat
 
