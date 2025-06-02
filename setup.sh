@@ -26,9 +26,6 @@ ln -s $PWD/.wezterm.lua ~/.wezterm.lua
 
 mkdir -p ~/.config
 
-rm -rf ~/.config/bat
-ln -s $PWD/.config/bat ~/.config/bat
-
 rm -rf ~/.config/btop
 ln -s $PWD/.config/btop ~/.config/btop
 
