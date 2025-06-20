@@ -22,11 +22,11 @@ wezterm.on("format-tab-title", function(tab)
     local fg = "#cdd6f4"
     local icon = tab.is_active and "" or ""
 
-    local id = tab.active_pane.pane_id
+    local index = tab.tab_index + 1
     local path = format(tab.active_pane.current_working_dir.path)
     local process = tab.active_pane.foreground_process_name:match("([^/\\]+)$")
 
-    local title = string.format(" [%i] %s %s ->  %s ", id, icon, path, process)
+    local title = string.format(" [%i] %s %s ->  %s ", index, icon, path, process)
 
     return { { Background = { Color = bg } }, { Foreground = { Color = fg } }, { Text = title } }
 end)
