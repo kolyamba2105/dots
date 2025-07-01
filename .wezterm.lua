@@ -6,6 +6,54 @@ config.color_scheme = "Catppuccin Mocha"
 config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = 600 })
 config.font_size = 14
 config.hide_tab_bar_if_only_one_tab = false
+config.keys = {
+    {
+        action = wezterm.action.ActivatePaneDirection("Left"),
+        key = "h",
+        mods = "LEADER",
+    },
+    {
+        action = wezterm.action.ActivatePaneDirection("Down"),
+        key = "j",
+        mods = "LEADER",
+    },
+    {
+        action = wezterm.action.ActivatePaneDirection("Up"),
+        key = "k",
+        mods = "LEADER",
+    },
+    {
+        action = wezterm.action.ActivatePaneDirection("Right"),
+        key = "l",
+        mods = "LEADER",
+    },
+    {
+        action = wezterm.action.RotatePanes("CounterClockwise"),
+        key = "[",
+        mods = "LEADER",
+    },
+    {
+        action = wezterm.action.RotatePanes("Clockwise"),
+        key = "]",
+        mods = "LEADER",
+    },
+    {
+        action = wezterm.action.TogglePaneZoomState,
+        key = "z",
+        mods = "LEADER",
+    },
+    {
+        action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
+        key = '"',
+        mods = "LEADER",
+    },
+    {
+        action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
+        key = "%",
+        mods = "LEADER",
+    },
+}
+config.leader = { key = "a", mods = "CTRL" }
 config.max_fps = 240
 config.native_macos_fullscreen_mode = true
 config.tab_max_width = 128
