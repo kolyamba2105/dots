@@ -66,6 +66,7 @@ config.keys = {
 config.leader = { key = "q", mods = "CTRL" }
 config.max_fps = 240
 config.native_macos_fullscreen_mode = true
+config.tab_bar_at_bottom = true
 config.tab_max_width = 128
 config.use_fancy_tab_bar = false
 config.window_background_opacity = 0.999 -- Fixes MacOS animation lag
