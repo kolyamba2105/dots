@@ -77,8 +77,8 @@ config.window_padding = { bottom = "0.75cell", left = "0.75cell", right = "0.75c
 local function format(path) return path == "/" and path or path:sub(path:match(".*/()")) end
 
 wezterm.on("format-tab-title", function(tab)
-    local bg = tab.is_active and "#1e1e2e" or "#11111b"
-    local fg = "#cdd6f4"
+    local bg = tab.is_active and "#cba6f7" or "#11111b"
+    local fg = tab.is_active and "#11111b" or "#cdd7f4"
     local icon = tab.is_active and "" or ""
 
     local index = tab.tab_index + 1
