@@ -63,7 +63,7 @@ config.keys = {
         mods = "LEADER",
     },
 }
-config.leader = { key = "a", mods = "CTRL" }
+config.leader = { key = "q", mods = "CTRL" }
 config.max_fps = 240
 config.native_macos_fullscreen_mode = true
 config.tab_max_width = 128
