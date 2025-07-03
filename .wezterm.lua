@@ -28,6 +28,16 @@ config.keys = {
         mods = "LEADER",
     },
     {
+        action = wezterm.action.ActivateTabRelative(1),
+        key = "n",
+        mods = "LEADER",
+    },
+    {
+        action = wezterm.action.ActivateTabRelative(-1),
+        key = "p",
+        mods = "LEADER",
+    },
+    {
         action = wezterm.action.RotatePanes("CounterClockwise"),
         key = "[",
         mods = "LEADER",
