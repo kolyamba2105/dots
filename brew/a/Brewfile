@@ -30,6 +30,7 @@ brew "pinentry-mac"
 brew "pnpm"
 brew "postgresql@14", restart_service: :changed
 brew "ripgrep"
+brew "starship"
 brew "stylua"
 brew "tmux"
 brew "tree"
