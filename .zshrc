@@ -53,3 +53,5 @@ alias ll="lsd -la"
 alias ls="lsd"
 
 alias cat="bat"
+
+eval "$(starship init zsh)"

@@ -34,3 +34,6 @@ ln -s $PWD/.config/ghostty ~/.config/ghostty
 
 rm -rf ~/.config/nvim
 ln -s $PWD/.config/nvim ~/.config/nvim
+
+rm ~/.config/starship.toml
+ln -s $PWD/.config/starship.toml ~/.config/starship.toml
