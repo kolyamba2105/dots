@@ -3,6 +3,9 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 config.color_scheme = "Catppuccin Mocha"
+config.colors = {
+    background = "#11111b",
+}
 config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = 600 })
 config.font_size = 14
 config.hide_tab_bar_if_only_one_tab = true
