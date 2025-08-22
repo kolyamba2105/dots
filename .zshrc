@@ -52,7 +52,7 @@ alias ls="lsd"
 alias cat="bat"
 
 # fnm
-eval "$(fnm env --use-on-cd --shell zsh)"
+eval "$(fnm env --use-on-cd --log-level=quiet --shell zsh)"
 
 # starship
 eval "$(starship init zsh)"
