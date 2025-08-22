@@ -34,9 +34,6 @@ setopt sharehistory
 export EDITOR=nvim
 export VISUAL=nvim
 
-# path
-export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
-
 # fzf
 source <(fzf --zsh)
 
@@ -54,6 +51,8 @@ alias ls="lsd"
 
 alias cat="bat"
 
+# fnm
 eval "$(fnm env --use-on-cd --shell zsh)"
 
+# starship
 eval "$(starship init zsh)"
