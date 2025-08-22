@@ -54,4 +54,6 @@ alias ls="lsd"
 
 alias cat="bat"
 
+eval "$(fnm env --use-on-cd --shell zsh)"
+
 eval "$(starship init zsh)"
