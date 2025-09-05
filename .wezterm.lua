@@ -31,6 +31,26 @@ config.keys = {
         mods = "LEADER",
     },
     {
+        action = wezterm.action.AdjustPaneSize({ "Left", 5 }),
+        key = "H",
+        mods = "LEADER",
+    },
+    {
+        action = wezterm.action.AdjustPaneSize({ "Down", 5 }),
+        key = "J",
+        mods = "LEADER",
+    },
+    {
+        action = wezterm.action.AdjustPaneSize({ "Up", 5 }),
+        key = "K",
+        mods = "LEADER",
+    },
+    {
+        action = wezterm.action.AdjustPaneSize({ "Right", 5 }),
+        key = "L",
+        mods = "LEADER",
+    },
+    {
         action = wezterm.action.ActivateTabRelative(1),
         key = "n",
         mods = "LEADER",
