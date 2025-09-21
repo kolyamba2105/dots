@@ -1,8 +1,7 @@
 background = #11111b
-cursor-opacity = 0.5
 font-size = 14
 font-thicken = true
 macos-titlebar-style = tabs
-theme = catppuccin-mocha
+theme = Catppuccin Mocha
 window-padding-x = 12
 window-padding-y = 12
