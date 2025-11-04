@@ -85,8 +85,13 @@ config.keys = {
         key = "%",
         mods = "LEADER",
     },
+    {
+        action = wezterm.action.SendKey({ key = "a", mods = "CTRL" }),
+        key = "a",
+        mods = "LEADER|CTRL",
+    },
 }
-config.leader = { key = "q", mods = "CTRL" }
+config.leader = { key = "a", mods = "CTRL" }
 config.max_fps = 240
 config.native_macos_fullscreen_mode = true
 config.tab_bar_at_bottom = true
