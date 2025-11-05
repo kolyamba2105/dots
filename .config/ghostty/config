@@ -3,5 +3,7 @@ font-size = 14
 font-thicken = true
 macos-titlebar-style = tabs
 theme = Catppuccin Mocha
+window-height = 80
 window-padding-x = 12
 window-padding-y = 12
+window-width = 256
