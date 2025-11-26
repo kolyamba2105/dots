@@ -34,6 +34,8 @@ setopt sharehistory
 export EDITOR=nvim
 export VISUAL=nvim
 
+export PATH=$PATH:$HOME/go/bin
+
 # fzf
 source <(fzf --zsh)
 
