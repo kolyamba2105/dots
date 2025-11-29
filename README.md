@@ -38,21 +38,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 brew bundle install --file ./brew/{a-or-b}/Brewfile
 ```
 
-## Install nvm
-
-```sh
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
-```
-
 ## Setup Neovim
 
-[Setup guide](https://github.com/kolyamba2105/neovim-config/blob/master/README.md)
-
-## tmux
-
-```sh
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-```
+[Setup guide](https://github.com/kolyamba2105/nvim/blob/master/README.md)
 
 ## Setup config files
 
@@ -67,10 +55,6 @@ git submodule update
 
 sh setup.sh <a-or-b>
 ```
-
-## Configure alt-tab
-
-Configuration screenshots can be found [here](./.config/alt-tab)
 
 ## Useful MacOS commands
 
