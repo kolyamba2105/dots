@@ -9,89 +9,89 @@ config.colors = {
 config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = 600 })
 config.font_size = 16
 config.hide_tab_bar_if_only_one_tab = true
-config.keys = {
-    {
-        action = wezterm.action.ActivatePaneDirection("Left"),
-        key = "h",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.ActivatePaneDirection("Down"),
-        key = "j",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.ActivatePaneDirection("Up"),
-        key = "k",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.ActivatePaneDirection("Right"),
-        key = "l",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.AdjustPaneSize({ "Left", 5 }),
-        key = "H",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.AdjustPaneSize({ "Down", 5 }),
-        key = "J",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.AdjustPaneSize({ "Up", 5 }),
-        key = "K",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.AdjustPaneSize({ "Right", 5 }),
-        key = "L",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.ActivateTabRelative(1),
-        key = "n",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.ActivateTabRelative(-1),
-        key = "p",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.RotatePanes("CounterClockwise"),
-        key = "[",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.RotatePanes("Clockwise"),
-        key = "]",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.TogglePaneZoomState,
-        key = "z",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
-        key = '"',
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
-        key = "%",
-        mods = "LEADER",
-    },
-    {
-        action = wezterm.action.SendKey({ key = "a", mods = "CTRL" }),
-        key = "a",
-        mods = "LEADER|CTRL",
-    },
-}
-config.leader = { key = "a", mods = "CTRL" }
+-- config.keys = {
+--     {
+--         action = wezterm.action.ActivatePaneDirection("Left"),
+--         key = "h",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.ActivatePaneDirection("Down"),
+--         key = "j",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.ActivatePaneDirection("Up"),
+--         key = "k",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.ActivatePaneDirection("Right"),
+--         key = "l",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.AdjustPaneSize({ "Left", 5 }),
+--         key = "H",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.AdjustPaneSize({ "Down", 5 }),
+--         key = "J",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.AdjustPaneSize({ "Up", 5 }),
+--         key = "K",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.AdjustPaneSize({ "Right", 5 }),
+--         key = "L",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.ActivateTabRelative(1),
+--         key = "n",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.ActivateTabRelative(-1),
+--         key = "p",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.RotatePanes("CounterClockwise"),
+--         key = "[",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.RotatePanes("Clockwise"),
+--         key = "]",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.TogglePaneZoomState,
+--         key = "z",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
+--         key = '"',
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
+--         key = "%",
+--         mods = "LEADER",
+--     },
+--     {
+--         action = wezterm.action.SendKey({ key = "a", mods = "CTRL" }),
+--         key = "a",
+--         mods = "LEADER|CTRL",
+--     },
+-- }
+-- config.leader = { key = "a", mods = "CTRL" }
 config.max_fps = 240
 config.native_macos_fullscreen_mode = true
 config.tab_bar_at_bottom = true
