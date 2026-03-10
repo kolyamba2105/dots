@@ -98,6 +98,7 @@ config.tab_bar_at_bottom = true
 config.tab_max_width = 128
 config.use_fancy_tab_bar = false
 config.window_background_opacity = 0.999 -- Fixes MacOS animation lag
+config.window_close_confirmation = "NeverPrompt"
 config.window_decorations = "RESIZE"
 config.window_padding = { bottom = "0.75cell", left = "0.75cell", right = "0.75cell", top = "0.75cell" }
 
