@@ -32,7 +32,6 @@ brew "luajit"
 brew "neovim"
 brew "pandoc"
 brew "pinentry-mac"
-brew "postgresql@14", restart_service: :changed
 brew "ripgrep"
 brew "starship"
 brew "stylua"
