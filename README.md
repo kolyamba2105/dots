@@ -42,6 +42,40 @@ brew bundle install --file ./brew/{a-or-b}/Brewfile
 
 [Setup guide](https://github.com/kolyamba2105/nvim/blob/master/README.md)
 
+### Build from source
+
+Install build prerequisites:
+
+```sh
+brew install ninja cmake gettext curl git
+```
+
+Clone the repository and build a specific version:
+
+```sh
+git clone https://github.com/neovim/neovim.git ~/github/neovim
+
+cd ~/github/neovim
+
+git checkout v0.11.7
+
+make CMAKE_BUILD_TYPE=Release CMAKE_INSTALL_PREFIX=$HOME/local/nvim
+make install
+```
+
+### Update
+
+```sh
+cd ~/github/neovim
+
+git fetch --tags
+git checkout v0.X.Y
+
+make distclean
+make CMAKE_BUILD_TYPE=Release CMAKE_INSTALL_PREFIX=$HOME/local/nvim
+make install
+```
+
 ## Setup config files
 
 ```sh
