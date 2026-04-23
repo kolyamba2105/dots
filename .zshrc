@@ -1,5 +1,8 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# neovim
+export PATH="$HOME/local/nvim/bin:$PATH"
+
 # oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
 
