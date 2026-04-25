@@ -8,6 +8,9 @@ config.colors = {
 }
 config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = 600 })
 config.font_size = 16
+config.keys = {
+    { action = wezterm.action.DisableDefaultAssignment, mods = "ALT", key = "Enter" },
+}
 -- config.keys = {
 --     {
 --         action = wezterm.action.ActivatePaneDirection("Left"),
