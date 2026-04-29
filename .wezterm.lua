@@ -9,7 +9,33 @@ config.colors = {
 config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = 600 })
 config.font_size = 16
 config.keys = {
-    { action = wezterm.action.DisableDefaultAssignment, mods = "ALT", key = "Enter" },
+    {
+        action = wezterm.action.DisableDefaultAssignment,
+        mods = "ALT",
+        key = "Enter",
+    },
+    {
+        action = wezterm.action_callback(function(win, pane)
+            local active_idx = 0
+            local mux_window = win:mux_window()
+
+            for _, item in ipairs(mux_window:tabs_with_info()) do
+                if item.is_active then
+                    active_idx = item.index
+
+                    break
+                end
+            end
+
+            mux_window:spawn_tab({
+                -- sad empty table :(
+            })
+
+            win:perform_action(wezterm.action.MoveTab(active_idx + 1), pane)
+        end),
+        mods = "SUPER",
+        key = "t",
+    },
 }
 config.max_fps = 240
 config.native_macos_fullscreen_mode = true
