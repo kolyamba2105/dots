@@ -39,6 +39,8 @@ export VISUAL=nvim
 
 export PATH=$PATH:$HOME/go/bin
 
+export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
+
 # fzf
 source <(fzf --zsh)
 

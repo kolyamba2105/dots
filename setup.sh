@@ -15,6 +15,9 @@ ln -s $PWD/.gitconfig ~/.gitconfig
 rm ~/.hushlogin
 ln -s $PWD/.hushlogin ~/.hushlogin
 
+rm ~/.ripgreprc
+ln -s $PWD/.ripgreprc ~/.ripgreprc
+
 rm ~/.stylua.toml
 ln -s $PWD/.stylua.toml ~/.stylua.toml
 
