@@ -88,9 +88,5 @@ if.window-title-regex-substring = 'DevTools'
 run = ['layout floating']
 
 [[on-window-detected]]
-if.app-id = 'com.mitchellh.ghostty'
-run= ['layout floating']
-
-[[on-window-detected]]
 if.app-id = 'ru.keepcoder.Telegram'
 run = ['layout floating']
