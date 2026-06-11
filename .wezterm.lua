@@ -6,7 +6,15 @@ config.color_scheme = "Catppuccin Mocha"
 config.colors = {
     background = "#11111b",
 }
-config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = 600 })
+config.font = wezterm.font({
+    family = "JetBrainsMono Nerd Font",
+    harfbuzz_features = {
+        "calt=0",
+        "clig=0",
+        "liga=0",
+    },
+    weight = 600,
+})
 config.font_size = 16
 config.keys = {
     {
