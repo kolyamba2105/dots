@@ -1,74 +1,141 @@
+tap "asmvik/formulae"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "jesseduffield/lazygit"
-tap "koekeishiya/formulae"
 tap "mongodb/brew"
 tap "nikitabobko/tap"
+# Official Amazon AWS command-line interface
 brew "awscli"
+# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Library for manipulating PNG images
 brew "libpng"
+# GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
+# Vector graphics library with cross-device output support
 brew "cairo"
+# Cross-platform make
 brew "cmake"
+# General purpose Language Server
 brew "efm-langserver"
+# Library and utilities for processing GIFs
 brew "giflib"
+# OpenType text shaping engine
 brew "harfbuzz"
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# LLVM bytecode to JavaScript compiler
 brew "emscripten"
+# Simple, fast and user-friendly alternative to find
 brew "fd"
+# Fast and simple Node.js version manager
 brew "fnm"
+# Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
 brew "gh"
+# Distributed revision control system
 brew "git"
+# Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# Render markdown on the CLI
 brew "glow"
+# GNU Transport Layer Security (TLS) Library
 brew "gnutls"
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Grammar Checker for Developers
 brew "harper"
+# C/C++ and Java libraries for Unicode and globalization
 brew "icu4c@76"
+# Image manipulation library
 brew "jpeg"
+# Lightweight and flexible command-line JSON processor
 brew "jq"
+# Modern load testing tool, using Go and JavaScript
 brew "k6"
+# Simple terminal UI for git commands
 brew "lazygit"
+# Framework for layout and rendering of i18n text
 brew "pango"
+# Library to render SVG files using Cairo
 brew "librsvg"
+# Clone of ls with colorful output, file type icons, and more
 brew "lsd"
+# Language Server for the Lua language
 brew "lua-language-server"
+# Just-In-Time Compiler (JIT) for the Lua programming language
 brew "luajit"
+# Small build system for use with gyp or CMake
 brew "ninja"
+# Tool to interact with the Phrase API
 brew "phrase-cli"
+# Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Package compiler and linker metadata toolkit
 brew "pkgconf"
+# Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
+# Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Cross-shell prompt for astronauts
 brew "starship"
+# Opinionated Lua code formatter
 brew "stylua"
+# Terminal multiplexer
 brew "tmux"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Incremental parsing library
 brew "tree-sitter"
+# Parser generator tool
 brew "tree-sitter-cli"
+# Validating, recursive, caching DNS resolver
 brew "unbound"
+# Internet file retriever
 brew "wget"
+# Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
+# Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace"
+# Securely stores and accesses AWS credentials in a development environment
 cask "aws-vault-binary"
+# Desktop password and login vault
 cask "bitwarden"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Terminal-based AI coding assistant
 cask "claude-code"
+# Tool to show live information about the batteries in various devices
 cask "coconutbattery"
+# Web browser
 cask "firefox"
 cask "font-jetbrains-mono-nerd-font"
+# Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Web browser
 cask "google-chrome"
+# Provides updates to various Microsoft products
 cask "microsoft-auto-update"
+# Email client
 cask "microsoft-outlook"
+# Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# Smooths scrolling and set mouse scroll directions independently
 cask "mos"
+# Collaboration platform for API development
 cask "postman"
+# Control your tools with a few keystrokes
 cask "raycast"
+# Team communication and collaboration software
 cask "slack"
-cask "wezterm"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm@nightly"
+# Multiplayer code editor
 cask "zed"
 npm "@cucumber/language-server"
 npm "@github/copilot"
