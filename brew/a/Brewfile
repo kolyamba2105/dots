@@ -22,6 +22,8 @@ brew "curl"
 brew "efm-langserver"
 # OpenType text shaping engine
 brew "harfbuzz"
+# TIFF library and utilities
+brew "libtiff"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # LLVM bytecode to JavaScript compiler
