@@ -114,8 +114,6 @@ cask "spotify"
 cask "telegram"
 # GPU-accelerated cross-platform terminal emulator and multiplexer
 cask "wezterm@nightly"
-# Multiplayer code editor
-cask "zed"
 go "sandbox"
 npm "@github/copilot"
 npm "@tailwindcss/language-server"
