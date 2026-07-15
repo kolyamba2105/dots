@@ -1,9 +1,6 @@
 tap "asmvik/formulae", "https://github.com/asmvik/homebrew-formulae.git"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "nikitabobko/tap"
-tap "osx-cross/arm"
-tap "osx-cross/avr"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -86,7 +83,6 @@ brew "tree-sitter-cli"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-cask "aerospace"
 # Desktop password and login vault
 cask "bitwarden"
 # Web browser
