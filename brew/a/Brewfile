@@ -1,65 +1,120 @@
+tap "asmvik/formulae", "https://github.com/asmvik/homebrew-formulae.git"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "koekeishiya/formulae"
 tap "nikitabobko/tap"
 tap "osx-cross/arm"
 tap "osx-cross/avr"
+# Official Amazon AWS command-line interface
 brew "awscli"
+# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
+# Cross-platform make
 brew "cmake"
+# Suite of command-line tools for converting to and working with CSV
 brew "csvkit"
+# Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# General purpose Language Server
 brew "efm-langserver"
+# OpenType text shaping engine
 brew "harfbuzz"
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# LLVM bytecode to JavaScript compiler
 brew "emscripten"
+# Simple, fast and user-friendly alternative to find
 brew "fd"
+# Fast and simple Node.js version manager
 brew "fnm"
+# Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
 brew "gh"
+# Distributed revision control system
 brew "git"
+# Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# Render markdown on the CLI
 brew "glow"
+# GNU Transport Layer Security (TLS) Library
 brew "gnutls"
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Language server for the Go language
 brew "gopls"
+# Grammar Checker for Developers
 brew "harper"
+# Lightweight and flexible command-line JSON processor
 brew "jq"
+# Simple terminal UI for git commands
 brew "lazygit"
+# Clone of ls with colorful output, file type icons, and more
 brew "lsd"
+# Language Server for the Lua language
 brew "lua-language-server"
+# Just-In-Time Compiler (JIT) for the Lua programming language
 brew "luajit"
+# Small build system for use with gyp or CMake
 brew "ninja"
+# Swiss-army knife of markup format conversion
 brew "pandoc"
+# Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Cross-shell prompt for astronauts
 brew "starship"
+# Opinionated Lua code formatter
 brew "stylua"
+# Terminal multiplexer
 brew "tmux"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Incremental parsing library
 brew "tree-sitter"
+# Parser generator tool
 brew "tree-sitter-cli"
+# Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
+# Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-cask "nikitabobko/tap/aerospace"
+cask "aerospace"
+# Desktop password and login vault
 cask "bitwarden"
+# Web browser
 cask "firefox"
 cask "font-jetbrains-mono-nerd-font"
+# Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Web browser
 cask "google-chrome"
+# Client for the Google Drive storage service
 cask "google-drive"
+# Smooths scrolling and set mouse scroll directions independently
 cask "mos"
+# App to write, plan, collaborate, and get organised
 cask "notion"
+# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Collaboration platform for API development
 cask "postman"
+# Control your tools with a few keystrokes
 cask "raycast"
+# Application to control your PlayStation 4 or PlayStation 5
 cask "sony-ps-remote-play"
+# Music streaming service
 cask "spotify"
+# Messaging app with a focus on speed and security
 cask "telegram"
-cask "wezterm"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm@nightly"
+# Multiplayer code editor
 cask "zed"
 go "sandbox"
 npm "@github/copilot"
