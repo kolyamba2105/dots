@@ -67,7 +67,7 @@ wezterm.on("format-tab-title", function(tab)
     local path = format(tab.active_pane.current_working_dir.path)
     local process = tab.active_pane.foreground_process_name:match("([^/\\]+)$")
 
-    local title = string.format(" [%i] | %s %s |  %s ", index, icon, path, process)
+    local title = string.format(" [%i] %s %s |  %s ", index, icon, path, process)
 
     return { { Background = { Color = bg } }, { Foreground = { Color = fg } }, { Text = title } }
 end)
