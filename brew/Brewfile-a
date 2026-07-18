@@ -17,14 +17,6 @@ brew "csvkit"
 brew "curl"
 # General purpose Language Server
 brew "efm-langserver"
-# OpenType text shaping engine
-brew "harfbuzz"
-# TIFF library and utilities
-brew "libtiff"
-# Open-source, cross-platform JavaScript runtime environment
-brew "node"
-# LLVM bytecode to JavaScript compiler
-brew "emscripten"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Fast and simple Node.js version manager
@@ -47,12 +39,16 @@ brew "gnupg"
 brew "go"
 # Language server for the Go language
 brew "gopls"
+# OpenType text shaping engine
+brew "harfbuzz"
 # Grammar Checker for Developers
 brew "harper"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Simple terminal UI for git commands
 brew "lazygit"
+# TIFF library and utilities
+brew "libtiff"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 # Language Server for the Lua language
@@ -61,6 +57,8 @@ brew "lua-language-server"
 brew "luajit"
 # Small build system for use with gyp or CMake
 brew "ninja"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Pinentry for GPG on Mac
