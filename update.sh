@@ -17,10 +17,5 @@ brew cleanup --prune=all
 
 brew bundle dump --force --file=$dir/Brewfile
 
-awk '!/tap \"homebrew\/cask\"/' $dir/Brewfile > tmp && mv tmp $dir/Brewfile
-awk '!/tap \"homebrew\/core\"/' $dir/Brewfile > tmp && mv tmp $dir/Brewfile
-
-brew bundle install --file=$dir/Brewfile
-
 git add $dir/Brewfile
 git commit -m "Update Brewfile [$1]"
