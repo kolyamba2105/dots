@@ -16,6 +16,20 @@ ssh-keygen
 
 - Add content of `~/.ssh/id_rsa.pub` on Github
 
+## Setup config files
+
+```sh
+cd ~
+git clone --recurse-submodules https://github.com/kolyamba2105/dots.git
+
+cd ~/dots
+
+git submodule init
+git submodule update
+
+sh setup.sh <a-or-b>
+```
+
 ## Install oh-my-zsh
 
 ```sh
@@ -35,7 +49,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ## Install dependencies
 
 ```sh
-brew bundle install --file ./brew/{a-or-b}/Brewfile
+brew bundle install --file ./brew/Brewfile-{a-or-b}
 ```
 
 ## Setup Neovim
@@ -71,23 +85,11 @@ cd ~/github/neovim
 git fetch --tags
 git checkout v0.X.Y
 
+git pull --rebase
+
 make distclean
 make CMAKE_BUILD_TYPE=Release CMAKE_INSTALL_PREFIX=$HOME/local/nvim
 make install
-```
-
-## Setup config files
-
-```sh
-cd ~
-git clone --recurse-submodules https://github.com/kolyamba2105/dots.git
-
-cd ~/dots
-
-git submodule init
-git submodule update
-
-sh setup.sh <a-or-b>
 ```
 
 ## Useful MacOS commands
