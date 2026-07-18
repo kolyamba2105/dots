@@ -18,9 +18,6 @@ ln -s $PWD/.ripgreprc ~/.ripgreprc
 rm ~/.stylua.toml
 ln -s $PWD/.stylua.toml ~/.stylua.toml
 
-rm ~/.tmux.conf
-ln -s $PWD/.tmux.conf ~/.tmux.conf
-
 rm ~/.wezterm.lua
 ln -s $PWD/.wezterm.lua ~/.wezterm.lua
 
