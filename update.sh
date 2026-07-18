@@ -8,14 +8,14 @@ elif [ "$1" != "a" ] && [ "$1" != "b" ]; then
   exit 1
 fi
 
-dir="brew/$1"
+file="brew/Brewfile-$1"
 
 brew update
 brew upgrade
 
 brew cleanup --prune=all
 
-brew bundle dump --force --file=$dir/Brewfile
+brew bundle dump --force --file=$file
 
-git add $dir/Brewfile
+git add $file
 git commit -m "Update Brewfile [$1]"
