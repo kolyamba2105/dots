@@ -1,5 +1,7 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+export HOMEBREW_NO_ENV_HINTS=1
+
 # neovim
 export PATH="$HOME/local/nvim/bin:$PATH"
 
