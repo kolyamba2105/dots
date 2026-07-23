@@ -102,6 +102,7 @@ cask "raycast"
 cask "slack"
 # GPU-accelerated cross-platform terminal emulator and multiplexer
 cask "wezterm@nightly"
+npm "@biomejs/biome"
 npm "@cucumber/language-server"
 npm "@github/copilot"
 npm "@tailwindcss/language-server"
