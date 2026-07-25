@@ -23,6 +23,11 @@ config.keys = {
         key = "Enter",
     },
     {
+        action = wezterm.action.ShowLauncherArgs({ flags = "WORKSPACES" }),
+        mods = "SUPER",
+        key = "p",
+    },
+    {
         action = wezterm.action_callback(function(win, pane)
             local active_idx = 0
             local mux_window = win:mux_window()
