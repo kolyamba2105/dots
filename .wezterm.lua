@@ -77,4 +77,15 @@ wezterm.on("format-tab-title", function(tab)
     return { { Background = { Color = bg } }, { Foreground = { Color = fg } }, { Text = title } }
 end)
 
+wezterm.on(
+    "update-right-status",
+    function(window)
+        window:set_right_status(wezterm.format({
+            { Background = { Color = "#cba6f7" } },
+            { Foreground = { Color = "#11111b" } },
+            { Text = string.format(" %s ", window:active_workspace()) },
+        }))
+    end
+)
+
 return config
