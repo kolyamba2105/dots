@@ -83,7 +83,7 @@ wezterm.on(
         window:set_right_status(wezterm.format({
             { Background = { Color = "#cba6f7" } },
             { Foreground = { Color = "#11111b" } },
-            { Text = string.format(" %s ", window:active_workspace()) },
+            { Text = string.format(" 󱂬 %s ", window:active_workspace()) },
         }))
     end
 )
