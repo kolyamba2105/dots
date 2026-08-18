@@ -28,6 +28,16 @@ config.keys = {
         key = "p",
     },
     {
+        action = wezterm.action.PromptInputLine({
+            description = "Rename workspace",
+            action = wezterm.action_callback(function(_, _, line)
+                if line then wezterm.mux.rename_workspace(wezterm.mux.get_active_workspace(), line) end
+            end),
+        }),
+        mods = "SUPER",
+        key = "r",
+    },
+    {
         action = wezterm.action_callback(function(win, pane)
             local active_idx = 0
             local mux_window = win:mux_window()
