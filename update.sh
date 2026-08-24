@@ -1,11 +1,11 @@
 #!/bin/sh
 
 if [ $# -eq 0 ]; then
-  echo "Error: No argument provided"
-  exit 1
+    echo "Error: No argument provided"
+    exit 1
 elif [ "$1" != "a" ] && [ "$1" != "b" ]; then
-  echo "Error: Argument must be 'a' or 'b'"
-  exit 1
+    echo "Error: Argument must be 'a' or 'b'"
+    exit 1
 fi
 
 file="brew/Brewfile-$1"
