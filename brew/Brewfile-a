@@ -1,6 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "nikitabobko/tap"
+tap "nikitabobko/tap", trusted: { casks: ["aerospace"] }
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -89,8 +89,6 @@ brew "yazi"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# AeroSpace is an i3-like tiling window manager for macOS
-cask "nikitabobko/tap/aerospace", trusted: true
 # Desktop password and login vault
 cask "bitwarden"
 # Web browser
@@ -108,6 +106,8 @@ cask "obsidian"
 cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # Application to control your PlayStation 4 or PlayStation 5
 cask "sony-ps-remote-play"
 # Music streaming service
