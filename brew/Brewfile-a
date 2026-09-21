@@ -89,8 +89,6 @@ brew "yazi"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# Desktop password and login vault
-cask "bitwarden"
 # Web browser
 cask "firefox"
 cask "font-jetbrains-mono-nerd-font"
