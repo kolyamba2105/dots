@@ -3,6 +3,9 @@
 rm ~/.zshrc
 ln -s $PWD/.zshrc ~/.zshrc
 
+rm ~/.zshenv
+ln -s $PWD/.zshenv ~/.zshenv
+
 rm ~/.aerospace.toml
 ln -s $PWD/.aerospace.toml ~/.aerospace.toml
 
