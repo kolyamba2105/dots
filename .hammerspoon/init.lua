@@ -43,6 +43,6 @@ end
 
 hs.window.filter.new():subscribe(hs.window.filter.windowCreated, function(win) tile(win, 8) end)
 
-hs.hotkey.bind({ "cmd", "shift" }, "c", function() tile(hs.window.focusedWindow(), 128) end)
+hs.hotkey.bind({ "alt", "shift" }, "c", function() tile(hs.window.focusedWindow(), 128) end)
 
-hs.hotkey.bind({ "cmd", "shift" }, "return", function() tile(hs.window.focusedWindow(), 8) end)
+hs.hotkey.bind({ "alt", "shift" }, "return", function() tile(hs.window.focusedWindow(), 8) end)
