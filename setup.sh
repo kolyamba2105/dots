@@ -34,3 +34,8 @@ ln -s $PWD/.config/nvim ~/.config/nvim
 
 rm ~/.config/starship.toml
 ln -s $PWD/.config/starship.toml ~/.config/starship.toml
+
+mkdir -p ~/.hammerspoon
+
+rm -rf ~/.hammerspoon
+ln -s $PWD/.hammerspoon ~/.hammerspoon
