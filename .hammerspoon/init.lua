@@ -21,7 +21,8 @@ spoon.SpoonInstall:andUse("EmmyLua")
 
 --- config reload
 
-hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", hs.reload):start()
+--- kept as a global: hs.pathwatcher doesn't self-retain, so a local gets garbage collected and silently stops firing
+ConfigWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", hs.reload):start()
 
 hs.alert.show("Hammerspoon config loaded")
 
