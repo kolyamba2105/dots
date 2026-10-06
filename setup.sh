@@ -1,10 +1,20 @@
 #!/bin/sh
 
+if [ $# -eq 0 ]; then
+    echo "Error: No argument provided"
+    exit 1
+elif [ "$1" != "a" ] && [ "$1" != "b" ]; then
+    echo "Error: Argument must be 'a' or 'b'"
+    exit 1
+fi
+
 rm ~/.zshrc
 ln -s $PWD/.zshrc ~/.zshrc
 
-rm ~/.zshenv
-ln -s $PWD/.zshenv ~/.zshenv
+if [ "$1" = "a" ]; then
+    rm ~/.zshenv
+    ln -s $PWD/.zshenv ~/.zshenv
+fi
 
 rm ~/.aerospace.toml
 ln -s $PWD/.aerospace.toml ~/.aerospace.toml
