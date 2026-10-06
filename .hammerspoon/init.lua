@@ -57,7 +57,11 @@ end
 
 hs.hotkey.bind({ "alt", "shift" }, "return", function() center(maximize(hs.window.focusedWindow(), 8), 8) end)
 
-hs.window.filter.new():subscribe(hs.window.filter.windowCreated, function(win) center(maximize(win, 8), 8) end)
+--- only regular windows: popups, popovers and dialogs (e.g. in Telegram) report AXDialog / AXSystemDialog and are left alone
+hs.window.filter
+    .new()
+    :setDefaultFilter({ visible = true, allowRoles = "AXStandardWindow" })
+    :subscribe(hs.window.filter.windowCreated, function(win) center(maximize(win, 8), 8) end)
 
 --- app launcher
 
