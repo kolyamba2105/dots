@@ -1,6 +1,4 @@
-tap "homebrew/bundle"
-tap "homebrew/services"
-tap "nikitabobko/tap", trusted: true
+tap "nikitabobko/tap"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -75,8 +73,6 @@ brew "yazi"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# AeroSpace is an i3-like tiling window manager for macOS
-cask "nikitabobko/tap/aerospace"
 # Securely stores and accesses AWS credentials in a development environment
 cask "aws-vault-binary"
 # Terminal-based AI coding assistant
@@ -86,6 +82,8 @@ cask "font-jetbrains-mono-nerd-font"
 cask "ghostty"
 # Web browser
 cask "google-chrome"
+# Desktop automation application
+cask "hammerspoon"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Email client
@@ -96,8 +94,6 @@ cask "microsoft-teams"
 cask "mos"
 # Collaboration platform for API development
 cask "postman"
-# Control your tools with a few keystrokes
-cask "raycast"
 # Team communication and collaboration software
 cask "slack"
 # GPU-accelerated cross-platform terminal emulator and multiplexer
