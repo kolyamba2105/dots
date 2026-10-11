@@ -58,10 +58,15 @@ end
 hs.hotkey.bind({ "alt", "shift" }, "return", function() center(maximize(hs.window.focusedWindow(), 8), 8) end)
 
 --- only regular windows: popups, popovers and dialogs (e.g. in Telegram) report AXDialog / AXSystemDialog and are left alone
-hs.window.filter
-    .new()
-    :setDefaultFilter({ visible = true, allowRoles = "AXStandardWindow" })
-    :subscribe(hs.window.filter.windowCreated, function(win) center(maximize(win, 8), 8) end)
+local regular_windows = hs.window.filter.new():setDefaultFilter({ visible = true, allowRoles = "AXStandardWindow" })
+
+hs.hotkey.bind({ "ctrl", "alt", "shift" }, "return", function()
+    for _, win in ipairs(regular_windows:getWindows()) do
+        center(maximize(win, 8), 8)
+    end
+end)
+
+regular_windows:subscribe(hs.window.filter.windowCreated, function(win) center(maximize(win, 8), 8) end)
 
 --- app launcher
 
@@ -71,7 +76,7 @@ local apps = {
     { { "alt", "shift" }, "f", "Firefox" },
     { { "alt", "shift" }, "s", "System Settings" },
     { { "alt", "shift" }, "t", "WezTerm" },
-    { { "alt", "shift" }, "x", "Telegram" },
+    { { "alt", "shift" }, "x", "Slack" },
 }
 
 for _, app in ipairs(apps) do
