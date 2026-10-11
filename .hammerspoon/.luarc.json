@@ -1,8 +1,8 @@
 {
     "diagnostics": {
-        "globals": ["hs"]
+        "globals": ["hs", "spoon"]
     },
     "workspace": {
-        "library": ["/Users/kolyamba/.hammerspoon/Spoons/EmmyLua.spoon/annotations"]
+        "library": ["~/.hammerspoon/Spoons/EmmyLua.spoon/annotations"]
     }
 }
