@@ -74,9 +74,10 @@ regular_windows:subscribe(hs.window.filter.windowCreated, function(win) center(m
 local apps = {
     { { "alt", "shift" }, "e", "Finder" },
     { { "alt", "shift" }, "f", "Firefox" },
+    { { "alt", "shift" }, "l", "Slack" },
     { { "alt", "shift" }, "s", "System Settings" },
     { { "alt", "shift" }, "t", "WezTerm" },
-    { { "alt", "shift" }, "x", "Slack" },
+    { { "alt", "shift" }, "x", "Telegram" },
 }
 
 for _, app in ipairs(apps) do
