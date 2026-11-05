@@ -74,6 +74,7 @@ regular_windows:subscribe(hs.window.filter.windowCreated, function(win) center(m
 local apps = {
     { { "alt", "shift" }, "e", "Finder" },
     { { "alt", "shift" }, "f", "Firefox" },
+    { { "alt", "shift" }, "g", "Google Chrome" },
     { { "alt", "shift" }, "l", "Slack" },
     { { "alt", "shift" }, "s", "System Settings" },
     { { "alt", "shift" }, "t", "WezTerm" },
