@@ -1,4 +1,6 @@
-tap "nikitabobko/tap"
+tap "osx-cross/arm", trusted: true
+tap "osx-cross/avr", trusted: true
+tap "qmk/qmk", trusted: true
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -13,6 +15,8 @@ brew "cmake"
 brew "csvkit"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Convert text between DOS, UNIX, and Mac formats
+brew "dos2unix"
 # General purpose Language Server
 brew "efm-langserver"
 # Simple, fast and user-friendly alternative to find
@@ -67,6 +71,8 @@ brew "pandoc"
 brew "pinentry-mac"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Autoformat shell script source code
@@ -87,6 +93,8 @@ brew "yazi"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# Quantum Mechanical Keyboard (QMK) Firmware
+brew "qmk/qmk/qmk", trusted: true
 # Terminal-based AI coding assistant
 cask "claude-code"
 # Web browser
@@ -94,6 +102,8 @@ cask "firefox"
 cask "font-jetbrains-mono-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Web browser
+cask "google-chrome"
 # Desktop automation application
 cask "hammerspoon"
 # Smooths scrolling and set mouse scroll directions independently
@@ -111,6 +121,7 @@ cask "telegram"
 # GPU-accelerated cross-platform terminal emulator and multiplexer
 cask "wezterm@nightly"
 npm "@github/copilot"
+npm "@google/clasp"
 npm "@tailwindcss/language-server"
 npm "@vtsls/language-server"
 npm "bash-language-server"
