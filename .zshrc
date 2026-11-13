@@ -42,8 +42,9 @@ export VISUAL=nvim
 export PATH=$PATH:$HOME/go/bin
 
 # QMK toolchains (keg-only Homebrew formulae)
-export PATH=$PATH:/opt/homebrew/opt/arm-none-eabi-gcc@8/bin:/opt/homebrew/opt/avr-gcc@8/bin
-export PATH=$PATH:/opt/homebrew/opt/arm-none-eabi-binutils/bin:/opt/homebrew/opt/avr-binutils/bin
+for dir in /opt/homebrew/opt/{arm-none-eabi-gcc@8,avr-gcc@8,arm-none-eabi-binutils,avr-binutils}/bin; do
+  if [[ -d $dir ]]; then export PATH=$PATH:$dir; fi
+done
 
 export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
 
