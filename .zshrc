@@ -41,6 +41,10 @@ export VISUAL=nvim
 
 export PATH=$PATH:$HOME/go/bin
 
+# QMK toolchains (keg-only Homebrew formulae)
+export PATH=$PATH:/opt/homebrew/opt/arm-none-eabi-gcc@8/bin:/opt/homebrew/opt/avr-gcc@8/bin
+export PATH=$PATH:/opt/homebrew/opt/arm-none-eabi-binutils/bin:/opt/homebrew/opt/avr-binutils/bin
+
 export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
 
 # fzf
