@@ -92,6 +92,41 @@ make CMAKE_BUILD_TYPE=Release CMAKE_INSTALL_PREFIX=$HOME/local/nvim
 make install
 ```
 
+## Setup QMK (OLKB Preonic rev3)
+
+Keymaps live in `./qmk` as a [QMK External Userspace](https://docs.qmk.fm/newbs_external_userspace), so `~/qmk_firmware` stays an unmodified clone. `qmk`, `python@3.13` and `dos2unix` are installed from `Brewfile-a`. The compilers are keg-only, so `.zshrc` adds them to `PATH`.
+
+Clone `qmk_firmware` and check that all dependencies are found:
+
+```sh
+qmk setup
+```
+
+Point QMK to the userspace and set defaults:
+
+```sh
+qmk config user.overlay_dir=$HOME/dots/qmk
+qmk config user.keyboard=preonic/rev3_drop
+qmk config user.keymap=nolights
+```
+
+### Build and flash
+
+```sh
+qmk flash
+```
+
+When it waits for the bootloader, hold `Lower` + `Raise` and press `Q`.
+
+### Update
+
+```sh
+cd ~/qmk_firmware
+
+git pull
+qmk git-submodule
+```
+
 ## Useful MacOS commands
 
 - Reset Dock default settings
