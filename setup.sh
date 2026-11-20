@@ -34,6 +34,11 @@ ln -s $PWD/.stylua.toml ~/.stylua.toml
 rm ~/.wezterm.lua
 ln -s $PWD/.wezterm.lua ~/.wezterm.lua
 
+mkdir -p ~/.claude
+
+rm -rf ~/.claude/settings.json
+ln -s $PWD/.claude/settings.json ~/.claude/settings.json
+
 mkdir -p ~/.config
 
 rm -rf ~/.config/ghostty
