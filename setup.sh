@@ -16,9 +16,6 @@ if [ "$1" = "a" ]; then
     ln -s $PWD/.zshenv ~/.zshenv
 fi
 
-rm ~/.aerospace.toml
-ln -s $PWD/.aerospace.toml ~/.aerospace.toml
-
 rm ~/.gitconfig
 ln -s $PWD/.gitconfig ~/.gitconfig
 
